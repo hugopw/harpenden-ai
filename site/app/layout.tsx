@@ -5,15 +5,15 @@ import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: {
-    default: "Harpenden.AI — The UK's most AI-fluent town",
+    default: "Harpenden.AI - The UK's most AI-fluent town",
     template: "%s · Harpenden.AI",
   },
   description:
-    "A vision for Harpenden: a whole town fluent in AI, using it together to protect livelihoods and solve community problems. Developed by Hugo Pickford-Wardle — AI Optimist.",
+    "A vision for Harpenden: a whole town fluent in AI, using it together to protect livelihoods and solve community problems. Developed by Hugo Pickford-Wardle - AI Optimist.",
   openGraph: {
-    title: "Harpenden.AI — The UK's most AI-fluent town",
+    title: "Harpenden.AI - The UK's most AI-fluent town",
     description:
-      "A vision document for Harpenden Town Council. Developed by Hugo Pickford-Wardle — AI Optimist.",
+      "A vision document for Harpenden Town Council. Developed by Hugo Pickford-Wardle - AI Optimist.",
     url: "https://harpenden.ai",
     siteName: "Harpenden.AI",
     type: "website",

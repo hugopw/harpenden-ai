@@ -6,33 +6,33 @@ import { Eyebrow } from "@/components/Eyebrow";
 export const metadata: Metadata = {
   title: "The Free Dreamers",
   description:
-    "A small Harpenden group deliberately curated to push the boundaries of what AI can do for the town — together.",
+    "A small Harpenden group deliberately curated to push the boundaries of what AI can do for the town - together.",
 };
 
 const principles = [
   {
     t: "Small, on purpose",
-    b: "We keep the Free Dreamers deliberately small. You should know every other member&rsquo;s name, and what they&rsquo;re working on.",
+    b: "We keep the Free Dreamers deliberately small. You should know every other member’s name, and what they’re working on.",
   },
   {
     t: "Boundary-pushing is the point",
-    b: "This group exists to try the things that aren&rsquo;t yet obvious — new community tools, new civic workflows, new ways to bring Harpenden together.",
+    b: "This group exists to try the things that aren’t yet obvious - new community tools, new civic workflows, new ways to bring Harpenden together.",
   },
   {
     t: "Warm, curious, generous",
-    b: "Status outside the group stays outside the group. Everyone inside the room is a peer. Disagreement is welcome; ego isn&rsquo;t.",
+    b: "Status outside the group stays outside the group. Everyone inside the room is a peer. Disagreement is welcome; ego isn’t.",
   },
   {
     t: "Action over talk",
-    b: "Every session ends with an experiment someone has committed to ship before the next one. We&rsquo;d rather be wrong fast than right late.",
+    b: "Every session ends with an experiment someone has committed to ship before the next one. We’d rather be wrong fast than right late.",
   },
   {
     t: "Harpenden first",
-    b: "The test of any idea is: does this make Harpenden better? If the answer is &ldquo;not really,&rdquo; we don&rsquo;t chase it here.",
+    b: "The test of any idea is: does this make Harpenden better? If the answer is “not really,” we don’t chase it here.",
   },
   {
     t: "No free rides",
-    b: "Membership is a commitment — to show up, to contribute, and to bring the rest of your life with you. Passive members thin the room.",
+    b: "Membership is a commitment - to show up, to contribute, and to bring the rest of your life with you. Passive members thin the room.",
   },
 ];
 
@@ -48,9 +48,9 @@ export default function FreeDreamersPage() {
           </h1>
           <p className="prose-body mt-6">
             Hugo came up with the Free Dreamers on a retreat. The name
-            is deliberate — this is a community for people who want to
+            is deliberate - this is a community for people who want to
             dream freely about what Harpenden could do with AI, and
-            then go and try it. The boundaries of who&rsquo;s involved
+            then go and try it. The boundaries of who’s involved
             matter; a tight room makes bold ideas safe.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function FreeDreamersPage() {
           <ul className="mt-8 space-y-4 text-chalk/85">
             <li>
               <strong>Rhythm:</strong> Monthly, in-person, Harpenden
-              venue — rotated so no single place carries the load.
+              venue - rotated so no single place carries the load.
             </li>
             <li>
               <strong>Format:</strong> Shared meal, two short
@@ -96,7 +96,7 @@ export default function FreeDreamersPage() {
             <li>
               <strong>Entry:</strong> By introduction, with a short
               conversation. We bias towards people who are already
-              building, already serving, or already stuck — but
+              building, already serving, or already stuck - but
               willing.
             </li>
           </ul>

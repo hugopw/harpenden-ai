@@ -5,9 +5,9 @@ import { Section } from "@/components/Section";
 import { Eyebrow } from "@/components/Eyebrow";
 
 export const metadata: Metadata = {
-  title: "Worked example — Harpenden traffic",
+  title: "Worked example - Harpenden traffic",
   description:
-    "A worked prototype showing how Harpenden residents can use AI together to take on a real community problem — starting with traffic.",
+    "A worked prototype showing how Harpenden residents can use AI together to take on a real community problem - starting with traffic.",
 };
 
 const HARPENDEN_TRAFFIC_LIVE_URL =
@@ -17,11 +17,11 @@ const HARPENDEN_TRAFFIC_LIVE_LABEL = "Open the live Harpenden Traffic tool";
 const roles = [
   {
     t: "Residents",
-    b: "Collect on-the-ground observations — school-run bottlenecks, the Southdown squeeze, the A1081 at 8.15, the new-development entry roads. Annotate maps. No technical skill required.",
+    b: "Collect on-the-ground observations - school-run bottlenecks, the Southdown squeeze, the A1081 at 8.15, the new-development entry roads. Annotate maps. No technical skill required.",
   },
   {
     t: "Sherpas AI teenagers",
-    b: "Build the data-collection app. Ingest open traffic and planning data. Build the simple model. This is exactly the work they&rsquo;d do on a summer cohort.",
+    b: "Build the data-collection app. Ingest open traffic and planning data. Build the simple model. This is exactly the work they’d do on a summer cohort.",
   },
   {
     t: "AI Night School alumni",
@@ -41,7 +41,7 @@ const steps = [
   {
     n: "01",
     t: "Frame the problem with Problemarium",
-    b: "Turn &ldquo;traffic is bad&rdquo; into a set of specific, answerable questions — school-run, peak-hour, planning-led, parking-led. Each becomes a tractable mini-project.",
+    b: "Turn “traffic is bad” into a set of specific, answerable questions - school-run, peak-hour, planning-led, parking-led. Each becomes a tractable mini-project.",
   },
   {
     n: "02",
@@ -51,7 +51,7 @@ const steps = [
   {
     n: "03",
     t: "Model the impact",
-    b: "A simple, transparent model — the kind a Sherpas AI cohort can build and explain in a week. Not a black box. Not a million-pound procurement.",
+    b: "A simple, transparent model - the kind a Sherpas AI cohort can build and explain in a week. Not a black box. Not a million-pound procurement.",
   },
   {
     n: "04",
@@ -61,12 +61,12 @@ const steps = [
   {
     n: "05",
     t: "Publish, invite challenge",
-    b: "Share it on the Harpenden.AI site and with council officers. Invite residents to poke holes. Update transparently. That&rsquo;s the whole point.",
+    b: "Share it on the Harpenden.AI site and with council officers. Invite residents to poke holes. Update transparently. That’s the whole point.",
   },
   {
     n: "06",
     t: "Feed into real decisions",
-    b: "With the council&rsquo;s help, the output gets referenced in formal planning conversations — so resident work doesn&rsquo;t stay informal.",
+    b: "With the council’s help, the output gets referenced in formal planning conversations - so resident work doesn’t stay informal.",
   },
 ];
 
@@ -75,29 +75,29 @@ export default function TrafficPage() {
     <>
       <Section tone="chalk">
         <div className="container-page max-w-4xl">
-          <Eyebrow>Worked example — community empowerment</Eyebrow>
+          <Eyebrow>Worked example - community empowerment</Eyebrow>
           <h1 className="display-lg mt-3 text-balance">
             Traffic is the first thing AI gives back to the people who
             actually live with it.
           </h1>
           <p className="prose-body mt-6">
-            For decades, the people who feel Harpenden&rsquo;s traffic
-            most acutely — the parents on the school run, the retirees
+            For decades, the people who feel Harpenden’s traffic
+            most acutely - the parents on the school run, the retirees
             crossing Southdown, the residents of streets where every
-            new development quietly adds another rat-run — have had no
+            new development quietly adds another rat-run - have had no
             credible way to be heard. The data lives in consultancy
             reports. The models live behind procurement walls. The
             residents who carry the consequences live with their hands
             tied.
           </p>
           <p className="prose-body mt-4">
-            That&rsquo;s the promise of this worked example.
+            That’s the promise of this worked example.
             Harpenden.AI puts the modelling tools, the data literacy,
-            and the storytelling skills directly in residents&rsquo;
+            and the storytelling skills directly in residents’
             hands. Coached, not contracted. Owned by the people who
             actually live here. The traffic project is the first
             proof that an AI-fluent town can take on its own
-            problems — together — and have its work taken seriously
+            problems - together - and have its work taken seriously
             by the people who make decisions.
           </p>
           <p className="prose-body mt-4">
@@ -116,12 +116,12 @@ export default function TrafficPage() {
               <div className="max-w-2xl">
                 <Eyebrow tone="sun">Open the tool</Eyebrow>
                 <h2 className="display-sm mt-2">
-                  Harpenden Traffic — the live, working version
+                  Harpenden Traffic - the live, working version
                 </h2>
                 <p className="mt-3 text-ink/80">
                   This page tells the story of <em>why</em> we built
-                  it. The live tool itself — the one residents
-                  actually use — lives next door at
+                  it. The live tool itself - the one residents
+                  actually use - lives next door at
                   ainightschool.org/harpenden-ai/harpenden-traffic-example.
                   Open it, kick the tyres, and come back here for the
                   method behind it.
@@ -188,8 +188,8 @@ export default function TrafficPage() {
             stop being the audience for civic decisions and start
             being authors of them. Traffic is where we prove it,
             because every resident already has an opinion, the data
-            is largely public, and the visible signal — when the work
-            lands — is felt on every pavement in town.
+            is largely public, and the visible signal - when the work
+            lands - is felt on every pavement in town.
           </p>
           <p className="mt-4 text-chalk/85">
             The same method ports straight to hirable venues, pothole

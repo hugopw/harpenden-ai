@@ -21,6 +21,9 @@ const poseToFile: Record<MiniHugoPose, string> = {
 
 // Mini Hugo, the AI Night School character. Per AINS brand convention,
 // only used on Lavender (#dcb8fe) sections, bottom-right placement.
+//
+// `size="fit"` fills the parent container - useful when the parent
+// already constrains the dimensions (e.g. inside a PersonaCard stage).
 export function MiniHugo({
   pose,
   className,
@@ -28,19 +31,22 @@ export function MiniHugo({
 }: {
   pose: MiniHugoPose;
   className?: string;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "fit";
 }) {
-  const dim = {
-    sm: "h-24 w-24 md:h-32 md:w-32",
-    md: "h-40 w-40 md:h-56 md:w-56",
-    lg: "h-56 w-56 md:h-80 md:w-80",
-  }[size];
+  const dim =
+    size === "fit"
+      ? "h-full w-auto max-h-full max-w-full"
+      : {
+          sm: "h-24 w-24 md:h-32 md:w-32",
+          md: "h-40 w-40 md:h-56 md:w-56",
+          lg: "h-56 w-56 md:h-80 md:w-80",
+        }[size];
   return (
     <img
       src={poseToFile[pose]}
       alt=""
       aria-hidden="true"
-      className={clsx("select-none", dim, className)}
+      className={clsx("select-none object-contain", dim, className)}
     />
   );
 }

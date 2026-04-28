@@ -67,8 +67,8 @@ export function ProblemForm() {
           </h3>
         </div>
         <p className="mt-4 text-base text-midnight/80">
-          It&rsquo;s live on the community projects page. Other
-          residents can join the working group from there. We&rsquo;ll
+          It’s live on the community projects page. Other
+          residents can join the working group from there. We’ll
           come back to you within a week with a coach, a likely
           working-group lead, and a date for the kick-off.
         </p>
@@ -87,7 +87,7 @@ export function ProblemForm() {
           </Link>
         </div>
         <p className="mt-6 text-xs text-midnight/55">
-          (Demo build — your project lives in this browser. A shared
+          (Demo build - your project lives in this browser. A shared
           database will replace this when we move out of demo.)
         </p>
       </div>
@@ -148,7 +148,7 @@ export function ProblemForm() {
             name="description"
             required
             rows={4}
-            placeholder="Plain English. Imagine you&rsquo;re telling a neighbour over a coffee."
+            placeholder="Plain English. Imagine you’re telling a neighbour over a coffee."
             className="form-input min-h-[8rem] border-midnight/20"
           />
         </Field>
@@ -162,7 +162,7 @@ export function ProblemForm() {
             name="whoFeelsIt"
             required
             rows={3}
-            placeholder="The volunteers? The families? The trustees? Be specific — names and roles, not systems."
+            placeholder="The volunteers? The families? The trustees? Be specific - names and roles, not systems."
             className="form-input min-h-[6rem] border-midnight/20"
           />
         </Field>
@@ -171,7 +171,7 @@ export function ProblemForm() {
             id="alreadyTried"
             name="alreadyTried"
             rows={3}
-            placeholder="Spreadsheets, WhatsApp groups, leaflets — anything that helps us avoid repeating the work."
+            placeholder="Spreadsheets, WhatsApp groups, leaflets - anything that helps us avoid repeating the work."
             className="form-input min-h-[5rem] border-midnight/20"
           />
         </Field>
@@ -185,7 +185,7 @@ export function ProblemForm() {
             name="successIn90Days"
             required
             rows={3}
-            placeholder="Concrete and specific. Numbers if you have them. People&rsquo;s lives if you don&rsquo;t."
+            placeholder="Concrete and specific. Numbers if you have them. People’s lives if you don’t."
             className="form-input min-h-[5rem] border-midnight/20"
           />
         </Field>
@@ -214,7 +214,7 @@ export function ProblemForm() {
               className="mt-1 h-4 w-4 accent-lime"
             />
             <span>
-              Keep it private — Hugo&rsquo;s team only.
+              Keep it private - Hugo’s team only.
             </span>
           </label>
         </fieldset>
@@ -233,8 +233,8 @@ export function ProblemForm() {
         </button>
         <p className="text-xs text-midnight/55">
           By submitting, you confirm you have authority to share this
-          problem on behalf of the organisation. We&rsquo;ll never
-          publish your contact details — those are for our team only.
+          problem on behalf of the organisation. We’ll never
+          publish your contact details - those are for our team only.
         </p>
       </div>
     </form>

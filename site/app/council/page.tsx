@@ -9,7 +9,7 @@ import { videoByTheme } from "@/lib/videos";
 export const metadata: Metadata = {
   title: "For the Town Council",
   description:
-    "How Harpenden Town Council can enable this in a single summer — the asks, the programme, the AI Transformation Accelerator for town councils, and what we&rsquo;re not asking for.",
+    "How Harpenden Town Council can enable this in a single summer - the asks, the programme, the AI Transformation Accelerator for town councils, and what we’re not asking for.",
 };
 
 export default function CouncilPage() {
@@ -19,23 +19,23 @@ export default function CouncilPage() {
         <div className="container-page max-w-4xl">
           <Eyebrow>For Harpenden Town Council</Eyebrow>
           <h1 className="display-lg mt-3 text-balance">
-            We&rsquo;re asking the council to be a full partner — and
+            We’re asking the council to be a full partner - and
             our north star together is awareness.
           </h1>
           <p className="prose-body mt-6">
             Harpenden.AI only works if every resident hears about it.
             The council is the single largest awareness-building asset
-            this town has — its socials, email lists, direct mail,
+            this town has - its socials, email lists, direct mail,
             community boards, venue networks, and trusted
             relationships. None of those can be replicated by paid
-            marketing, and all of them are needed if we&rsquo;re
+            marketing, and all of them are needed if we’re
             serious about reaching every Harpenden resident, not
             just the ones already paying attention.
           </p>
           <p className="mt-4 text-sm text-ink/60">
             This page is written for council members and officers.
             It collects the partnership asks, inventories the assets
-            we&rsquo;d use together, spells out what we&rsquo;re
+            we’d use together, spells out what we’re
             <em> not</em> asking for, and outlines the council-specific
             variant of the AI Transformation Accelerator.
           </p>
@@ -51,10 +51,10 @@ export default function CouncilPage() {
             </h2>
           </div>
           <p className="text-ink/85 md:text-lg">
-            If we measure one thing together, it&rsquo;s how many
+            If we measure one thing together, it’s how many
             residents know that Harpenden.AI exists, what it offers
-            them, and how to get involved. Every council asset — every
-            email, every noticeboard, every meeting — is a chance to
+            them, and how to get involved. Every council asset - every
+            email, every noticeboard, every meeting - is a chance to
             move that number. The programme delivers fluency. The
             partnership delivers awareness. Both have to win for either
             to.
@@ -64,14 +64,14 @@ export default function CouncilPage() {
 
       <Section tone="white">
         <div className="container-page">
-          <Eyebrow>The partnership — assets we&rsquo;d use together</Eyebrow>
+          <Eyebrow>The partnership - assets we’d use together</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
             Every asset the council already has, working in concert with
             the programme.
           </h2>
           <p className="prose-body mt-5 max-w-3xl">
-            None of these are new for the council. They&rsquo;re things
-            you already do — meetings, mailings, posts, conversations.
+            None of these are new for the council. They’re things
+            you already do - meetings, mailings, posts, conversations.
             Partnership means we plan them together so the awareness
             compounds rather than scatters.
           </p>
@@ -80,23 +80,23 @@ export default function CouncilPage() {
             {[
               {
                 t: "Council social channels",
-                b: "Coordinated content across the council&rsquo;s Facebook, Instagram, X and LinkedIn. We supply the assets in council voice; you decide cadence and timing.",
+                b: "Coordinated content across the council’s Facebook, Instagram, X and LinkedIn. We supply the assets in council voice; you decide cadence and timing.",
               },
               {
                 t: "Resident email lists",
-                b: "Inclusion in the council&rsquo;s regular resident bulletins, e-newsletters and any opt-in lists you maintain. Each programme phase gets its own dedicated send.",
+                b: "Inclusion in the council’s regular resident bulletins, e-newsletters and any opt-in lists you maintain. Each programme phase gets its own dedicated send.",
               },
               {
                 t: "Direct mail &amp; letterbox drops",
-                b: "Reach the residents that no digital channel touches. Even a single town-wide drop introducing the resident offer transforms the programme&rsquo;s starting line.",
+                b: "Reach the residents that no digital channel touches. Even a single town-wide drop introducing the resident offer transforms the programme’s starting line.",
               },
               {
                 t: "Council noticeboards &amp; civic spaces",
-                b: "Town Hall, Public Halls, library noticeboards, The Eric Morecambe Centre. The places residents already trust for what&rsquo;s on in town.",
+                b: "Town Hall, Public Halls, library noticeboards, The Eric Morecambe Centre. The places residents already trust for what’s on in town.",
               },
               {
                 t: "Community relationships",
-                b: "The council&rsquo;s warm relationships with Rothamsted, the Secondary Schools Trust, Age UK Herts, the Leisure Centre, the BID, faith groups, and resident associations.",
+                b: "The council’s warm relationships with Rothamsted, the Secondary Schools Trust, Age UK Herts, the Leisure Centre, the BID, faith groups, and resident associations.",
               },
               {
                 t: "Press &amp; local media",
@@ -104,11 +104,11 @@ export default function CouncilPage() {
               },
               {
                 t: "Council meetings &amp; agendas",
-                b: "A regular Harpenden.AI standing item gives residents a visible signal that this is real, sustained civic work — not a one-off announcement.",
+                b: "A regular Harpenden.AI standing item gives residents a visible signal that this is real, sustained civic work - not a one-off announcement.",
               },
               {
                 t: "Civic events &amp; town moments",
-                b: "Carnival, Christmas lights switch-on, summer events, Mayor&rsquo;s engagements. Each becomes a touchpoint for residents to encounter the programme in person.",
+                b: "Carnival, Christmas lights switch-on, summer events, Mayor’s engagements. Each becomes a touchpoint for residents to encounter the programme in person.",
               },
               {
                 t: "Venues &amp; physical hosting",
@@ -138,7 +138,7 @@ export default function CouncilPage() {
           <div>
             <Eyebrow>What full partnership looks like</Eyebrow>
             <h2 className="display-md mt-3">
-              Six concrete things — together.
+              Six concrete things - together.
             </h2>
             <ul className="mt-6 space-y-4">
               {[
@@ -148,11 +148,11 @@ export default function CouncilPage() {
                 },
                 {
                   t: "A joint communications calendar",
-                  b: "We plan announcements, posts, mailings and direct mail in lockstep with the council&rsquo;s comms team across the summer. Awareness is the metric.",
+                  b: "We plan announcements, posts, mailings and direct mail in lockstep with the council’s comms team across the summer. Awareness is the metric.",
                 },
                 {
                   t: "Awareness-first inclusion across every channel",
-                  b: "Inclusion in resident emails, council socials, noticeboards, civic events and direct mail — coordinated against the joint calendar.",
+                  b: "Inclusion in resident emails, council socials, noticeboards, civic events and direct mail - coordinated against the joint calendar.",
                 },
                 {
                   t: "Warm introductions",
@@ -163,8 +163,8 @@ export default function CouncilPage() {
                   b: "Active help finding and securing the venues for cohort openings, graduation evenings, weekly clinics and the summer festival.",
                 },
                 {
-                  t: "Data, when you&rsquo;re ready",
-                  b: "Any publicly shareable council data we can use to sharpen interventions. Start small — even one dataset makes the programme ten times smarter.",
+                  t: "Data, when you’re ready",
+                  b: "Any publicly shareable council data we can use to sharpen interventions. Start small - even one dataset makes the programme ten times smarter.",
                 },
               ].map((a) => (
                 <li key={a.t} className="flex gap-4">
@@ -183,13 +183,13 @@ export default function CouncilPage() {
             </ul>
           </div>
           <div className="card-dark">
-            <Eyebrow tone="sun">What we&rsquo;re not asking for</Eyebrow>
+            <Eyebrow tone="sun">What we’re not asking for</Eyebrow>
             <ul className="mt-5 space-y-4 text-chalk/90">
               <li>
                 <strong>No new council budget.</strong> The programme
                 monetises through AI Night School and Sherpas AI at
-                resident-friendly pricing. Public goods — clinics,
-                festival, council digest — are cross-subsidised.
+                resident-friendly pricing. Public goods - clinics,
+                festival, council digest - are cross-subsidised.
               </li>
               <li>
                 <strong>No new committee or department.</strong> A single
@@ -198,19 +198,19 @@ export default function CouncilPage() {
               </li>
               <li>
                 <strong>No procurement.</strong> This is a community
-                programme with commercial offers inside it — not a
+                programme with commercial offers inside it - not a
                 council-procured service.
               </li>
               <li>
                 <strong>No editorial control surrendered.</strong> The
                 council always signs off on anything that goes out in
-                the council&rsquo;s name. We bring the assets; you keep
+                the council’s name. We bring the assets; you keep
                 the voice.
               </li>
               <li>
                 <strong>No long decision up-front.</strong> Partnership
                 can start light and scale as confidence builds. The
-                first month&rsquo;s asks are tiny.
+                first month’s asks are tiny.
               </li>
             </ul>
           </div>
@@ -221,12 +221,12 @@ export default function CouncilPage() {
         <div className="container-page">
           <Eyebrow>For the council itself</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
-            The AI Transformation Accelerator — Town Council edition.
+            The AI Transformation Accelerator - Town Council edition.
           </h2>
           <p className="prose-body mt-5 max-w-3xl">
             A six-session programme shaped specifically for small-to-mid
-            town councils. The goal isn&rsquo;t an impressive tech stack.
-            It&rsquo;s an officer team that uses AI confidently every
+            town councils. The goal isn’t an impressive tech stack.
+            It’s an officer team that uses AI confidently every
             day, decisions that are better communicated, and residents
             who feel heard.
           </p>
@@ -241,12 +241,12 @@ export default function CouncilPage() {
               {
                 n: "02",
                 t: "Papers &amp; minutes in plain English",
-                b: "An AI workflow that turns every council paper and every set of minutes into a resident-facing digest, in the council&rsquo;s voice.",
+                b: "An AI workflow that turns every council paper and every set of minutes into a resident-facing digest, in the council’s voice.",
               },
               {
                 n: "03",
                 t: "Resident correspondence, ten times faster",
-                b: "Drafting, sorting, and prioritising correspondence without losing the personal touch. Officers keep control — the tool is just faster.",
+                b: "Drafting, sorting, and prioritising correspondence without losing the personal touch. Officers keep control - the tool is just faster.",
               },
               {
                 n: "04",
@@ -256,12 +256,12 @@ export default function CouncilPage() {
               {
                 n: "05",
                 t: "Policy drafting &amp; scenario-testing",
-                b: "Use AI to pressure-test a policy before it&rsquo;s tabled — and to surface implications the council might otherwise only learn in a public meeting.",
+                b: "Use AI to pressure-test a policy before it’s tabled - and to surface implications the council might otherwise only learn in a public meeting.",
               },
               {
                 n: "06",
                 t: "Governance &amp; assurance",
-                b: "A pragmatic governance model suited to a town council — who can use what, where data lives, what gets logged, what we tell residents.",
+                b: "A pragmatic governance model suited to a town council - who can use what, where data lives, what gets logged, what we tell residents.",
               },
             ].map((m) => (
               <article
@@ -312,7 +312,7 @@ export default function CouncilPage() {
           <div id="meet" className="rounded-3xl border border-ink/10 bg-ink p-8 text-chalk md:p-12">
             <Eyebrow tone="sun">Book the meeting</Eyebrow>
             <h2 className="mt-3 font-display text-3xl leading-tight md:text-4xl">
-              Let&rsquo;s walk through this in person, this week.
+              Let’s walk through this in person, this week.
             </h2>
             <p className="mt-6 text-chalk/80">
               Thirty to forty-five minutes is plenty. Hugo will walk the
@@ -332,7 +332,7 @@ export default function CouncilPage() {
               </Link>
             </div>
             <p className="mt-10 text-sm text-chalk/60">
-              Attribution: Developed by Hugo Pickford-Wardle — AI Optimist.
+              Attribution: Developed by Hugo Pickford-Wardle - AI Optimist.
               This website is a vision document for Harpenden Town Council.
             </p>
           </div>

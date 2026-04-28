@@ -8,7 +8,7 @@ import { VideoCard } from "@/components/VideoCard";
 import { videoByTheme } from "@/lib/videos";
 
 export const metadata: Metadata = {
-  title: "I&rsquo;m volunteering",
+  title: "I’m volunteering",
   description:
     "Become an AI Coach. Host a clinic. Join a working group. Your experience is exactly what your town needs.",
 };
@@ -16,17 +16,17 @@ export const metadata: Metadata = {
 const roles = [
   {
     t: "Join a community working group",
-    b: "Roll up your sleeves on a real Harpenden problem — traffic, loneliness, venues, the high street. You bring the local knowledge; we bring the AI tools and a coach.",
+    b: "Roll up your sleeves on a real Harpenden problem - traffic, loneliness, venues, the high street. You bring the local knowledge; we bring the AI tools and a coach.",
     time: "About 2 hours a week, for 6 weeks.",
   },
   {
     t: "Become an AI Coach",
-    b: "Get trained, then help a small group of residents take their first steps with AI — at the Leisure Centre, the Library, or a venue near you.",
+    b: "Get trained, then help a small group of residents take their first steps with AI - at the Leisure Centre, the Library, or a venue near you.",
     time: "Half a day a fortnight.",
   },
   {
     t: "Host a weekly drop-in clinic",
-    b: "We pair you with another resident and a venue. You make the tea. We bring the people who&rsquo;d like a hand and the residents who&rsquo;d like to give one.",
+    b: "We pair you with another resident and a venue. You make the tea. We bring the people who’d like a hand and the residents who’d like to give one.",
     time: "Two hours a week.",
   },
 ];
@@ -34,7 +34,7 @@ const roles = [
 export default function VolunteerPage() {
   return (
     <>
-      {/* HERO — Lavender, AINS register */}
+      {/* HERO - Lavender, AINS register */}
       <section className="relative overflow-hidden bg-lavender">
         <div className="absolute inset-0 bg-lavender-glow" />
         <div className="container-page relative grid gap-10 pb-20 pt-16 md:grid-cols-[1.2fr_0.8fr] md:items-end md:pb-28 md:pt-24">
@@ -46,9 +46,9 @@ export default function VolunteerPage() {
               Your experience is exactly what your town needs.
             </h1>
             <p className="prose-body mt-6 max-w-2xl text-midnight/85">
-              You don&rsquo;t need to know AI to help. You need to
-              know Harpenden — its streets, its people, its
-              quirks — and to have a few hours to spare. We&rsquo;ll
+              You don’t need to know AI to help. You need to
+              know Harpenden - its streets, its people, its
+              quirks - and to have a few hours to spare. We’ll
               do the rest with you, not to you.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -71,7 +71,7 @@ export default function VolunteerPage() {
         <div className="container-page">
           <Eyebrow>Three ways to help</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
-            All three roles are designed around real life — not extra
+            All three roles are designed around real life - not extra
             life.
           </h2>
           <div className="mt-10 grid gap-5 md:grid-cols-3">
@@ -103,15 +103,15 @@ export default function VolunteerPage() {
             </h2>
             <ol className="mt-6 space-y-3 text-base text-midnight/80 md:text-lg">
               <li>
-                <strong>1.</strong> Your time is precious. We&rsquo;ll
+                <strong>1.</strong> Your time is precious. We’ll
                 respect it and never ask for more than we agreed.
               </li>
               <li>
-                <strong>2.</strong> You&rsquo;ll always know who to
-                call if something doesn&rsquo;t suit.
+                <strong>2.</strong> You’ll always know who to
+                call if something doesn’t suit.
               </li>
               <li>
-                <strong>3.</strong> We&rsquo;ll train you properly
+                <strong>3.</strong> We’ll train you properly
                 before we ask you to help anyone else.
               </li>
               <li>
@@ -119,12 +119,12 @@ export default function VolunteerPage() {
                 every clinic. Always.
               </li>
               <li>
-                <strong>5.</strong> If a role isn&rsquo;t right,
+                <strong>5.</strong> If a role isn’t right,
                 you can switch or stop without making it awkward.
               </li>
               <li>
                 <strong>6.</strong> Your contribution is named, not
-                anonymous. We&rsquo;ll celebrate the volunteers as
+                anonymous. We’ll celebrate the volunteers as
                 visibly as the cohorts.
               </li>
             </ol>
@@ -144,12 +144,12 @@ export default function VolunteerPage() {
           <div className="text-midnight">
             <Eyebrow>Sign up</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
-              Tell us how you&rsquo;d like to help. We&rsquo;ll come
+              Tell us how you’d like to help. We’ll come
               back to you within a week.
             </h2>
             <p className="mt-5 text-midnight/85">
-              No commitment yet. This is just the first conversation —
-              once we&rsquo;ve met for a tea, you decide whether to go
+              No commitment yet. This is just the first conversation -
+              once we’ve met for a tea, you decide whether to go
               further.
             </p>
           </div>
@@ -173,19 +173,19 @@ export default function VolunteerPage() {
                   { value: "working-group", label: "A community working group" },
                   { value: "ai-coach", label: "Becoming an AI Coach" },
                   { value: "clinic-host", label: "Hosting a weekly clinic" },
-                  { value: "all", label: "I&rsquo;m open — let&rsquo;s chat" },
+                  { value: "all", label: "I’m open - let’s chat" },
                 ],
               },
               {
                 name: "skills",
-                label: "Anything you&rsquo;re especially good at? (optional)",
+                label: "Anything you’re especially good at? (optional)",
                 type: "textarea",
                 placeholder: "e.g. running events, working with older residents, marketing, finance, plain-English writing…",
               },
             ]}
             cta="Sign me up to volunteer"
             successHeadline="Thank you. Genuinely."
-            successBody="We&rsquo;ll be in touch within a week to set up a tea — somewhere local, no pressure."
+            successBody="We’ll be in touch within a week to set up a tea - somewhere local, no pressure."
           />
         </div>
       </section>

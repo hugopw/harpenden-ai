@@ -7,7 +7,7 @@ import { CommunityProjectsList } from "@/components/CommunityProjectsList";
 export const metadata: Metadata = {
   title: "Live community projects",
   description:
-    "Real Harpenden problems, posted by real Harpenden organisations. Pick one to join — or submit your own.",
+    "Real Harpenden problems, posted by real Harpenden organisations. Pick one to join - or submit your own.",
 };
 
 export default function CommunityProjectsPage() {
@@ -23,7 +23,7 @@ export default function CommunityProjectsPage() {
           <p className="prose-body mt-6">
             Each project below was submitted by a Harpenden
             organisation. Add your email to any project to join the
-            working group — we&rsquo;ll let you know when the
+            working group - we’ll let you know when the
             kick-off is. Or, if you run an organisation,{" "}
             <Link href="/submit-a-problem" className="underline underline-offset-4">
               add your own problem

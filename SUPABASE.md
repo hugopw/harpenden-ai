@@ -1,4 +1,4 @@
-# Supabase swap — when you're ready to leave demo mode
+# Supabase swap - when you're ready to leave demo mode
 
 The current demo persists `signups` and `problems` in browser
 localStorage so the council walk-through works without any DB at
@@ -64,7 +64,7 @@ create policy "anon can read public problems"
 ```
 
 Writes go through a Next.js API route using the **service role** key
-(server-side only — never expose to the browser). Reads of public
+(server-side only - never expose to the browser). Reads of public
 problems use the anon key.
 
 ## 3. Wire the adapter

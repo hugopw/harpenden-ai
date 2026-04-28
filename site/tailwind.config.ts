@@ -41,7 +41,7 @@ const config: Config = {
           deep: "#7AC93A",
           soft: "#E5FBC8",
         },
-        // Sherpas gradient stops (sibling brand) — used sparingly on the
+        // Sherpas gradient stops (sibling brand) - used sparingly on the
         // teen path only, never as a body palette.
         sherpas: {
           cyan: "#29ABE2",

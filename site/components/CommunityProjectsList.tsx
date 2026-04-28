@@ -45,7 +45,7 @@ export function CommunityProjectsList() {
     <div className="space-y-6">
       {problems.length === 0 ? (
         <div className="rounded-3xl border border-midnight/15 bg-white p-8 text-midnight/70">
-          No public projects yet — be the first by{" "}
+          No public projects yet - be the first by{" "}
           <Link href="/submit-a-problem" className="underline">
             submitting a problem
           </Link>
@@ -103,11 +103,11 @@ export function CommunityProjectsList() {
               <div className="flex items-center gap-2 text-sm text-midnight/75">
                 <Users className="h-4 w-4" />
                 <strong>{p.joinedBy.length}</strong>
-                &nbsp;resident{p.joinedBy.length === 1 ? "" : "s"} have said they&rsquo;ll join
+                &nbsp;resident{p.joinedBy.length === 1 ? "" : "s"} have said they’ll join
               </div>
               {joined[p.id] ? (
                 <span className="inline-flex items-center gap-2 rounded-full bg-meadow-soft px-3 py-1.5 text-sm font-semibold text-meadow">
-                  <Check className="h-4 w-4" /> You&rsquo;re in
+                  <Check className="h-4 w-4" /> You’re in
                 </span>
               ) : (
                 <form

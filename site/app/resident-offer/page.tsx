@@ -9,7 +9,7 @@ import { videoByTheme, videos } from "@/lib/videos";
 export const metadata: Metadata = {
   title: "The resident-only offer",
   description:
-    "Exclusive Harpenden pricing on AI Night School and Sherpas AI, local physical get-togethers, speaker series, community groups and the Free Dreamers — a programme the rest of the country cannot buy.",
+    "Exclusive Harpenden pricing on AI Night School and Sherpas AI, local physical get-togethers, speaker series, community groups and the Free Dreamers - a programme the rest of the country cannot buy.",
 };
 
 const speakers = [
@@ -17,19 +17,19 @@ const speakers = [
     name: "Laura",
     topic: "AI for direct-to-consumer businesses",
     blurb:
-      "A practitioner&rsquo;s session on the AI moves that actually shift the needle for a small D2C brand — marketing, ops, product, customer service.",
+      "A practitioner’s session on the AI moves that actually shift the needle for a small D2C brand - marketing, ops, product, customer service.",
   },
   {
     name: "Chris",
     topic: "Creating and protecting IP in the AI age",
     blurb:
-      "What&rsquo;s changed, what hasn&rsquo;t, and the concrete steps a founder or creator should take before their idea gets scraped.",
+      "What’s changed, what hasn’t, and the concrete steps a founder or creator should take before their idea gets scraped.",
   },
   {
     name: "Rolling roster",
-    topic: "Guest speakers from Hugo&rsquo;s network",
+    topic: "Guest speakers from Hugo’s network",
     blurb:
-      "Hugo brings one headline speaker a month from the AI Optimist network — exclusively for Harpenden residents, in a Harpenden room, over a Harpenden dinner.",
+      "Hugo brings one headline speaker a month from the AI Optimist network - exclusively for Harpenden residents, in a Harpenden room, over a Harpenden dinner.",
   },
 ];
 
@@ -37,22 +37,22 @@ const resident = [
   {
     icon: Users,
     title: "Harpenden-priced AI Night School",
-    body: "Our flagship six-week cohort, priced specifically for Harpenden residents. Cohorts open and close with a physical event in town — so community is baked in from night one.",
+    body: "Our flagship six-week cohort, priced specifically for Harpenden residents. Cohorts open and close with a physical event in town - so community is baked in from night one.",
   },
   {
     icon: Sparkles,
-    title: "Sherpas AI — Harpenden edition",
+    title: "Sherpas AI - Harpenden edition",
     body: "Teenagers build real AI tools for real Harpenden organisations. Community groups meet in person through the year. Work experience, mentorship, and visible local wins.",
   },
   {
     icon: Mic,
     title: "Exclusive talks and workshops",
-    body: "Residents-only speaker series — Laura on D2C, Chris on IP, and a rolling roster of Hugo&rsquo;s network. Not available outside Harpenden.",
+    body: "Residents-only speaker series - Laura on D2C, Chris on IP, and a rolling roster of Hugo’s network. Not available outside Harpenden.",
   },
   {
     icon: CalendarDays,
     title: "Harpenden AI Summer festival",
-    body: "A visible summer closing event run by the community, for the community — talks, showcases, graduations, and a town-wide celebration of a year of fluency.",
+    body: "A visible summer closing event run by the community, for the community - talks, showcases, graduations, and a town-wide celebration of a year of fluency.",
   },
   {
     icon: Coffee,
@@ -74,7 +74,7 @@ export default function ResidentOfferPage() {
           <Eyebrow tone="sun">The resident-only offer</Eyebrow>
           <h1 className="display-lg mt-3 text-balance">
             Because you live in Harpenden, the door to AI fluency opens
-            wider — and costs less.
+            wider - and costs less.
           </h1>
           <p className="prose-body mt-6">
             The resident-only offer is exclusive Harpenden pricing on
@@ -99,9 +99,9 @@ export default function ResidentOfferPage() {
 
       <Section tone="white">
         <div className="container-page">
-          <Eyebrow>What&rsquo;s inside</Eyebrow>
+          <Eyebrow>What’s inside</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
-            Six elements — each designed to start online and end in a
+            Six elements - each designed to start online and end in a
             room with your neighbours.
           </h2>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -132,7 +132,7 @@ export default function ResidentOfferPage() {
               for residents.
             </h2>
             <p className="mt-6 text-chalk/85">
-              These aren&rsquo;t webinars. They&rsquo;re small-room
+              These aren’t webinars. They’re small-room
               evenings in town, with a speaker Hugo knows and trusts,
               and a residents-only audience. Bookings are first-come.
               Numbers are small on purpose.
@@ -171,7 +171,7 @@ export default function ResidentOfferPage() {
 
       <Section tone="sky">
         <div className="container-page">
-          <Eyebrow>Who it&rsquo;s for</Eyebrow>
+          <Eyebrow>Who it’s for</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
             Every door leads back to the same community.
           </h2>
@@ -224,7 +224,7 @@ export default function ResidentOfferPage() {
         <div className="container-narrow text-center">
           <Eyebrow tone="ink">Say yes</Eyebrow>
           <h2 className="display-md mt-3 text-balance">
-            Register your interest. We&rsquo;ll let you know when the
+            Register your interest. We’ll let you know when the
             first Harpenden cohort opens.
           </h2>
           <div className="mt-8 flex flex-wrap justify-center gap-3">

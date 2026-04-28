@@ -34,7 +34,7 @@ export function CommunityProjectsTeaser() {
     <div className="space-y-3">
       {featured.length === 0 ? (
         <div className="rounded-3xl border border-midnight/15 bg-white p-6 text-midnight/70">
-          Loading recent community projects&hellip;
+          Loading recent community projects…
         </div>
       ) : (
         featured.map((p) => (

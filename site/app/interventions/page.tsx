@@ -7,7 +7,7 @@ import { interventions } from "@/lib/interventions";
 export const metadata: Metadata = {
   title: "Interventions directory",
   description:
-    "A shelf of programmes, diagnostics, and workshops the town can draw on — already designed, ready to run.",
+    "A shelf of programmes, diagnostics, and workshops the town can draw on - already designed, ready to run.",
 };
 
 export default function InterventionsPage() {
@@ -30,7 +30,7 @@ export default function InterventionsPage() {
         <div className="container-page max-w-4xl">
           <Eyebrow>Directory</Eyebrow>
           <h1 className="display-lg mt-3 text-balance">
-            A full shelf of ways to help — ready to run from day one.
+            A full shelf of ways to help - ready to run from day one.
           </h1>
           <p className="prose-body mt-6">
             None of this needs to be invented. Every card on this page
@@ -45,12 +45,12 @@ export default function InterventionsPage() {
         <div className="container-page space-y-16">
           <DirectoryGroup
             title="Flagship programmes"
-            intro="The three programmes that form the backbone of Harpenden&rsquo;s AI-fluent year."
+            intro="The three programmes that form the backbone of Harpenden’s AI-fluent year."
             items={core}
           />
           <DirectoryGroup
             title="Transformation Accelerators"
-            intro="For organisations — including a council-shaped version for Harpenden itself."
+            intro="For organisations - including a council-shaped version for Harpenden itself."
             items={accelerators}
           />
           <DirectoryGroup
@@ -60,7 +60,7 @@ export default function InterventionsPage() {
           />
           <DirectoryGroup
             title="Diagnostics"
-            intro="Short, private, specific — assessments that turn an abstract worry into a concrete plan."
+            intro="Short, private, specific - assessments that turn an abstract worry into a concrete plan."
             items={diagnostics}
           />
         </div>

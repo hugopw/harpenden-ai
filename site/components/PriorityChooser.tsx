@@ -30,7 +30,7 @@ const defaults: Item[] = [
     id: "venues",
     title: "Where can I hold my event?",
     description:
-      "A living directory of hirable halls, rooms and gardens — searchable by size, price, date, and vibe.",
+      "A living directory of hirable halls, rooms and gardens - searchable by size, price, date, and vibe.",
     rough: "Community-run directory",
   },
   {
@@ -51,7 +51,7 @@ const defaults: Item[] = [
     id: "teens",
     title: "Teenagers who can build, not just use, AI",
     description:
-      "Sherpas AI work-experience cohorts — Harpenden teens shipping real AI tools for local businesses over the summer.",
+      "Sherpas AI work-experience cohorts - Harpenden teens shipping real AI tools for local businesses over the summer.",
     rough: "Runs annually",
   },
   {
@@ -65,7 +65,7 @@ const defaults: Item[] = [
     id: "older",
     title: "Older residents feel confident, not left behind",
     description:
-      "Weekly drop-in AI clinics at the Leisure Centre and Library — warm, patient, jargon-free, and deliberately slow.",
+      "Weekly drop-in AI clinics at the Leisure Centre and Library - warm, patient, jargon-free, and deliberately slow.",
     rough: "Volunteer-led",
   },
 ];
@@ -93,10 +93,10 @@ export function PriorityChooser() {
         What should we solve together first?
       </h3>
       <p className="mt-3 max-w-2xl text-ink/75">
-        Drag-equivalent buttons. Re-order the list to match how you&rsquo;d
-        prioritise Harpenden&rsquo;s first community AI projects. This is a
-        vision document — today this lives in your browser. When we launch,
-        it will feed directly into the town&rsquo;s live project queue.
+        Drag-equivalent buttons. Re-order the list to match how you’d
+        prioritise Harpenden’s first community AI projects. This is a
+        vision document - today this lives in your browser. When we launch,
+        it will feed directly into the town’s live project queue.
       </p>
 
       <ol className="mt-8 space-y-3">

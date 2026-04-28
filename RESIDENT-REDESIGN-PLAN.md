@@ -1,6 +1,6 @@
-# Plan — Resident-facing redesign of Harpenden.AI
+# Plan - Resident-facing redesign of Harpenden.AI
 
-Status: **proposal — awaiting Hugo's approval before any code changes.**
+Status: **proposal - awaiting Hugo's approval before any code changes.**
 This is the plan for the resident experience you asked for. Scope is
 big enough that I want sign-off before building.
 
@@ -9,13 +9,13 @@ big enough that I want sign-off before building.
 ## 1. The problem with v1
 
 The current site is a **pitch document for the Town Council**.
-It works for that — a council member can walk through it, see the
+It works for that - a council member can walk through it, see the
 thesis, the asks, and the worked example.
 
 But the moment the council says yes, the site has to flip job. From
 that moment, Harpenden.AI is a **resident product**. A 55-year-old
 Marketing Director clicking it from a Facebook post should land
-somewhere that feels welcoming, urgent and obvious — not on a pitch
+somewhere that feels welcoming, urgent and obvious - not on a pitch
 deck for an institution she's not part of.
 
 So we plan v2 as a **resident-first website with a council pitch
@@ -44,18 +44,18 @@ slot inside it**, not the other way round.
 
 ```
 /                              Resident-first homepage (was: council pitch)
-  ├── /im-a-leader             Persona path — businesses & senior pros
-  ├── /im-a-teen               Persona path — Sherpas AI, work experience
-  ├── /im-volunteering         Persona path — retired & active residents
-  ├── /our-organisation        Persona path — community orgs (Kings Pantry et al.)
+  ├── /im-a-leader             Persona path - businesses & senior pros
+  ├── /im-a-teen               Persona path - Sherpas AI, work experience
+  ├── /im-volunteering         Persona path - retired & active residents
+  ├── /our-organisation        Persona path - community orgs (Kings Pantry et al.)
   │      └── /submit-a-problem Form: community organisation problem submission
-  ├── /community               (existing — kept, lightly updated)
-  ├── /interventions           (existing — kept)
-  ├── /challenges              (existing — re-skinned, problem-submit CTA added)
-  ├── /resident-offer          (existing — re-skinned, persona-aware CTAs)
-  ├── /free-dreamers           (existing — kept)
-  ├── /journey                 (existing — kept)
-  ├── /harpenden-traffic       (existing — already updated)
+  ├── /community               (existing - kept, lightly updated)
+  ├── /interventions           (existing - kept)
+  ├── /challenges              (existing - re-skinned, problem-submit CTA added)
+  ├── /resident-offer          (existing - re-skinned, persona-aware CTAs)
+  ├── /free-dreamers           (existing - kept)
+  ├── /journey                 (existing - kept)
+  ├── /harpenden-traffic       (existing - already updated)
   └── /pitch                   New: the council-facing pitch
         ├── /pitch/council     (was /council)
         └── /pitch/partnership (the partnership asks page)
@@ -69,7 +69,7 @@ nothing breaks for anyone you've already shared it with.
 Each one is a focused, single-screen-tall card on the homepage with
 a clear illustration and one CTA. Then a dedicated landing page.
 
-### 4.1 "I'm a leader" — `/im-a-leader`
+### 4.1 "I'm a leader" - `/im-a-leader`
 
 **Reader:** 35–60. Senior knowledge worker. Marketing Director,
 Partner, GP, Headmaster, agency owner, founder.
@@ -87,21 +87,21 @@ without you."
 - Two AI Optimist videos (displacement + getting started).
 - Sign-up form → cohort waitlist.
 
-### 4.2 "I'm 14–18" — `/im-a-teen`
+### 4.2 "I'm 14–18" - `/im-a-teen`
 
 **Reader:** Harpenden secondary-school student or 6th former.
 
 **Frame:** Sherpas AI energy. "Get paid to bring your ideas to life."
 
 **Page sections:**
-- Hero in **Sherpas treatment** — the cyan-to-pink gradient, the
+- Hero in **Sherpas treatment** - the cyan-to-pink gradient, the
   full-stop, a llama. Playful and loud.
 - Three things you can do: summer cohort, year-round community
   group, work experience matched to a Harpenden business.
 - One short Sherpas video.
 - Sign-up form → teen registration.
 
-### 4.3 "I want to volunteer" — `/im-volunteering`
+### 4.3 "I want to volunteer" - `/im-volunteering`
 
 **Reader:** Retired or semi-retired residents (and any other
 resident with hours to give). Often Segment 5 (warm, patient,
@@ -110,7 +110,7 @@ in-person needed).
 **Frame:** "Your experience is exactly what your town needs."
 
 **Page sections:**
-- Hero — warm, large type, calm photography. No jargon above
+- Hero - warm, large type, calm photography. No jargon above
   the fold.
 - Three roles to volunteer for:
   1. Community-AI working groups (traffic, venues, loneliness…)
@@ -121,10 +121,10 @@ in-person needed).
 - One AI Optimist video (older residents).
 - Sign-up form → volunteer registration with role + availability.
 
-### 4.4 "Our organisation has a problem to solve" — `/our-organisation`
+### 4.4 "Our organisation has a problem to solve" - `/our-organisation`
 
 **Reader:** A leader from a Harpenden community org. Hugo cited
-Kings Pantry as the archetypal example — also: Harpenden Trust,
+Kings Pantry as the archetypal example - also: Harpenden Trust,
 Harpenden Mencap, churches, schools, Lions, Rotary, Age UK Herts,
 sports clubs, the BID.
 
@@ -132,7 +132,7 @@ sports clubs, the BID.
 it to a community AI working group."
 
 **Page sections:**
-- Hero — civic, confident, not commercial.
+- Hero - civic, confident, not commercial.
 - A short list of problems we're already running with (the worked
   examples).
 - A clear "submit a problem" CTA → `/submit-a-problem` form.
@@ -150,7 +150,7 @@ A short, opinionated form:
 - What success looks like in 90 days
 - Optional: upload a doc or link
 
-Stored via Formspree (or an Airtable form embed) for v2 — no
+Stored via Formspree (or an Airtable form embed) for v2 - no
 backend in v1. Confirmation page sets expectations clearly.
 
 ## 5. Visual system
@@ -175,15 +175,15 @@ AI-Optimist-branded sections (notes, video tags).
 
 ### Typography
 
-Keep Fraunces (display) + Inter (body) — both already loaded — but
+Keep Fraunces (display) + Inter (body) - both already loaded - but
 set **18px body minimum** for inclusive design, with `prose-body-lg`
 at 20–22px for hero paragraphs.
 
-### Mascot — Mini Hugo
+### Mascot - Mini Hugo
 
 Use the Mini Hugo illustrations from AINS (poses confirmed: cloud,
 zen, thumbs-up, megaphone, teacher, laptop, start-flag) on
-**Lavender** sections only — exactly as AINS does. Bottom-right of
+**Lavender** sections only - exactly as AINS does. Bottom-right of
 each section. SVGs are public; we'll download and self-host in
 `site/public/illustrations/` (do not hot-link from AINS).
 
@@ -216,22 +216,22 @@ present in the existing site; it just gets re-coloured.
 
 ## 7. Build order (if you approve)
 
-1. **Palette + tokens** — extend `tailwind.config.ts` with
+1. **Palette + tokens** - extend `tailwind.config.ts` with
    `midnight`, `lavender`, `lime`. Add the `Harpenden.AI` wordmark
    component with re-coloured full-stop.
-2. **Mini Hugo + Llama** — download SVG assets to
+2. **Mini Hugo + Llama** - download SVG assets to
    `site/public/illustrations/`, build a `<MiniHugo pose="..." />`
    component and a `<Llama />` component.
-3. **Homepage flip** — rewrite `/` as the resident-first hero with
+3. **Homepage flip** - rewrite `/` as the resident-first hero with
    the four persona doors. Move the existing council pitch under
    `/pitch/council`. Add a redirect from `/council` → `/pitch/council`.
-4. **Persona pages** — `/im-a-leader`, `/im-a-teen`,
+4. **Persona pages** - `/im-a-leader`, `/im-a-teen`,
    `/im-volunteering`, `/our-organisation`. Each follows the section
    spec in §4 above.
-5. **Problem-submission form** — `/submit-a-problem` with Formspree
+5. **Problem-submission form** - `/submit-a-problem` with Formspree
    wiring (Hugo to share the endpoint or I'll create the
    placeholder).
-6. **Inclusive-design pass** — every page checked against §6.
+6. **Inclusive-design pass** - every page checked against §6.
 7. **Re-deploy** to Vercel, confirm AINS rewrite still serves the
    site cleanly under `/Harpenden-AI/`.
 
@@ -241,26 +241,26 @@ first, problem-submission form a day later).
 
 ## 8. Open questions for Hugo
 
-1. **Wordmark accent colour** — Electric Lime full-stop, or keep the
+1. **Wordmark accent colour** - Electric Lime full-stop, or keep the
    AI Optimist magenta one?
-2. **Cohort sign-up plumbing** — for the leader and teen paths, do
+2. **Cohort sign-up plumbing** - for the leader and teen paths, do
    sign-ups go to Hugo's existing AINS / Sherpas flows (links out)
    or to a Harpenden-specific email collector first (Formspree /
    ConvertKit)?
-3. **Volunteer form destination** — same question. Where do volunteer
+3. **Volunteer form destination** - same question. Where do volunteer
    sign-ups land? Email to Hugo? An Airtable? An Action Network?
-4. **Problem submissions** — Formspree endpoint, Airtable form, or
+4. **Problem submissions** - Formspree endpoint, Airtable form, or
    "email Hugo with this template" mailto?
-5. **Council redirect** — happy with `/council` → `/pitch/council`,
+5. **Council redirect** - happy with `/council` → `/pitch/council`,
    or keep `/council` live as the canonical?
-6. **Llama** — flat geometric Sherpas-Instagram register, or
+6. **Llama** - flat geometric Sherpas-Instagram register, or
    a custom one drawn for Harpenden? (I'd recommend a single
    licensable flat geometric llama in town colours.)
-7. **Image policy** — am I allowed to use a small set of stock
+7. **Image policy** - am I allowed to use a small set of stock
    photographs of Harpenden (High Street, Common, station) from
    Unsplash with credit, or do you want to source from local
    photographers first?
-8. **AINS rewrite** — confirmed you have admin on the AINS Vercel
+8. **AINS rewrite** - confirmed you have admin on the AINS Vercel
    project so we can add the `/Harpenden-AI` rewrite?
 
 Once you answer these eight questions (even one-liners), I'll start

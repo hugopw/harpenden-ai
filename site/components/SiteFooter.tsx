@@ -15,7 +15,7 @@ export function SiteFooter() {
               </span>
             </div>
             <p className="mt-6 max-w-md text-chalk/70">
-              A vision for Harpenden — the UK&rsquo;s most AI-fluent town.
+              A vision for Harpenden - the UK’s most AI-fluent town.
               A place where residents protect their livelihoods and solve
               community problems together using AI as a shared civic tool.
             </p>
@@ -27,7 +27,7 @@ export function SiteFooter() {
               >
                 Hugo Pickford-Wardle
               </a>{" "}
-              — AI Optimist.
+              - AI Optimist.
             </p>
           </div>
           <div>
@@ -42,7 +42,7 @@ export function SiteFooter() {
               <li><Link href="/free-dreamers">Free Dreamers</Link></li>
               <li><Link href="/journey">The journey</Link></li>
               <li><Link href="/council">For the town council</Link></li>
-              <li><Link href="/harpenden-traffic">Worked example — traffic</Link></li>
+              <li><Link href="/harpenden-traffic">Worked example - traffic</Link></li>
             </ul>
           </div>
           <div>

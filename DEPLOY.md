@@ -8,11 +8,11 @@ the AI Night School Vercel project that proxies the path to it.
 
 ## What's already done in this repo
 
-- `site/next.config.mjs` — `basePath = "/harpenden-ai"` in production,
+- `site/next.config.mjs` - `basePath = "/harpenden-ai"` in production,
   empty string for local dev (so `http://localhost:3010/` keeps
   working).
-- `site/vercel.json` — Bun-based Vercel build config.
-- `site/.env.local.example` — keeps local dev at the root.
+- `site/vercel.json` - Bun-based Vercel build config.
+- `site/.env.local.example` - keeps local dev at the root.
 
 Verify locally:
 
@@ -23,7 +23,7 @@ HARPENDEN_BASE_PATH=/harpenden-ai bun run dev   # /harpenden-ai
 bun run build               # confirms the basePath build is clean
 ```
 
-## Step 1 — get the Harpenden.AI project onto Vercel
+## Step 1 - get the Harpenden.AI project onto Vercel
 
 You have two options. Pick whichever you prefer.
 
@@ -43,14 +43,14 @@ You have two options. Pick whichever you prefer.
 
 3. In the Vercel dashboard → **Add New Project** → import the GitHub
    repo.
-4. **Important — configure Vercel:**
+4. **Important - configure Vercel:**
    - **Root Directory:** `site`
    - **Framework Preset:** Next.js (auto-detected)
    - **Build Command:** `bun run build` (already in `vercel.json`)
    - **Install Command:** `bun install`
 5. Deploy. Vercel will give you a URL like
    `https://harpenden-ai.vercel.app/harpenden-ai`. The site will
-   404 at the root — that's expected, because `basePath` is
+   404 at the root - that's expected, because `basePath` is
    `/harpenden-ai`.
 
 ### Option B: Vercel CLI
@@ -65,7 +65,7 @@ vercel --prod
 
 Vercel will prompt for project name and root. Set the root to `site`.
 
-## Step 2 — proxy from www.ainightschool.org/harpenden-ai
+## Step 2 - proxy from www.ainightschool.org/harpenden-ai
 
 On the **AI Night School Vercel project** (the one that serves
 `www.ainightschool.org`), edit (or create) `vercel.json` and add a
@@ -95,7 +95,7 @@ the Harpenden.AI homepage, and every internal link (`/community`,
 `/council`, etc.) will resolve correctly because Next.js writes
 them all under `/harpenden-ai` automatically thanks to `basePath`.
 
-## Step 3 — sanity-check after deploy
+## Step 3 - sanity-check after deploy
 
 Visit each route through the AINS host:
 

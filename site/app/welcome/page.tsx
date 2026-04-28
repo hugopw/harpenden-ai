@@ -12,9 +12,9 @@ import { videos } from "@/lib/videos";
 import { CommunityProjectsTeaser } from "@/components/CommunityProjectsTeaser";
 
 export const metadata: Metadata = {
-  title: "Welcome to Harpenden.AI — for residents",
+  title: "Welcome to Harpenden.AI - for residents",
   description:
-    "Your town. Your AI. Whether you lead a business, you're 14–18, you've got hours to give, or you run an organisation that needs help — there's a door here for you.",
+    "Your town. Your AI. Whether you lead a business, you're 14–18, you've got hours to give, or you run an organisation that needs help - there's a door here for you.",
 };
 
 export default function WelcomePage() {
@@ -33,14 +33,14 @@ export default function WelcomePage() {
             <span className="text-lavender-deep">Yours to shape.</span>
           </h1>
           <p className="prose-body mt-6 max-w-3xl">
-            Harpenden is becoming the UK&rsquo;s most AI-fluent town —
+            Harpenden is becoming the UK’s most AI-fluent town -
             not by accident, and not by leaving anyone behind.
-            Wherever you are on the journey, there&rsquo;s a door
-            here that&rsquo;s yours.
+            Wherever you are on the journey, there’s a door
+            here that’s yours.
           </p>
           <p className="mt-4 max-w-3xl text-base text-midnight/75 md:text-lg">
-            Pick the door that fits you. You&rsquo;ll find a clear
-            first step, the people you&rsquo;ll meet there, and a way
+            Pick the door that fits you. You’ll find a clear
+            first step, the people you’ll meet there, and a way
             to sign up that takes less than two minutes.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -72,50 +72,34 @@ export default function WelcomePage() {
               blurb="Get fluent in AI before your role does. Harpenden-priced AI Night School, plus a residents-only speaker series in town."
               cta="See the leader path"
               href="/im-a-leader"
-              decoration={
-                <div className="opacity-95">
-                  <MiniHugo pose="laptop" size="lg" />
-                </div>
-              }
+              decoration={<MiniHugo pose="laptop" size="fit" />}
             />
             <PersonaCard
               tone="teen"
-              who="For 14–18-year-olds"
-              title="I&rsquo;m a teenager and I want to build with AI, not just use it."
-              blurb="Sherpas AI — Harpenden edition. Get paid to bring real ideas to life, alongside other Harpenden teens."
+              who="For 14-18-year-olds"
+              title="I’m a teenager and I want to build with AI, not just use it."
+              blurb="Sherpas AI - Harpenden edition. Get paid to bring real ideas to life, alongside other Harpenden teens."
               cta="See the teen path"
               href="/im-a-teen"
-              decoration={
-                <div className="translate-y-2 translate-x-2 opacity-95">
-                  <Llama size={260} />
-                </div>
-              }
+              decoration={<Llama size={190} className="-mb-2" />}
             />
             <PersonaCard
               tone="volunteer"
               who="For volunteers"
-              title="I&rsquo;ve got time to give. I want to help my town."
+              title="I’ve got time to give. I want to help my town."
               blurb="Become an AI Coach, host a weekly clinic, or join a community working group. Your experience is exactly what your town needs."
               cta="See volunteer roles"
               href="/im-volunteering"
-              decoration={
-                <div className="opacity-95">
-                  <MiniHugo pose="thumbs-up" size="lg" />
-                </div>
-              }
+              decoration={<MiniHugo pose="thumbs-up" size="fit" />}
             />
             <PersonaCard
               tone="organisation"
               who="For local organisations"
               title="Our organisation has a problem we think AI could help with."
-              blurb="Tell us a real problem your charity, school, or community group faces. We&rsquo;ll match it to a working group."
+              blurb="Tell us a real problem your charity, school, or community group faces. We’ll match it to a working group."
               cta="Submit a problem"
               href="/our-organisation"
-              decoration={
-                <div className="opacity-90">
-                  <MiniHugo pose="megaphone" size="lg" />
-                </div>
-              }
+              decoration={<MiniHugo pose="megaphone" size="fit" />}
             />
           </div>
           <p className="mt-8 max-w-2xl text-sm text-midnight/65">
@@ -127,7 +111,7 @@ export default function WelcomePage() {
             <Link href="/im-volunteering" className="underline underline-offset-4">
               Volunteers
             </Link>{" "}
-            if you&rsquo;re retired and want to help. The doors aren&rsquo;t locked.
+            if you’re retired and want to help. The doors aren’t locked.
           </p>
         </div>
       </section>
@@ -143,7 +127,7 @@ export default function WelcomePage() {
             </h2>
             <p className="prose-body mt-5">
               When a local organisation tells us about a problem AI
-              could help with, it goes here — so any resident can join
+              could help with, it goes here - so any resident can join
               the working group and help solve it. This is what an
               AI-fluent town actually does on a Tuesday evening.
             </p>
@@ -152,7 +136,7 @@ export default function WelcomePage() {
                 Browse all projects <ArrowRight className="h-4 w-4" />
               </Link>
               <Link href="/our-organisation" className="btn-ghost">
-                Add your organisation&rsquo;s problem
+                Add your organisation’s problem
               </Link>
             </div>
           </div>
@@ -165,7 +149,7 @@ export default function WelcomePage() {
         <div className="container-page">
           <Eyebrow>From AI Optimist</Eyebrow>
           <h2 className="display-md mt-3 max-w-3xl text-balance">
-            Short videos that explain why this matters — start
+            Short videos that explain why this matters - start
             anywhere.
           </h2>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
@@ -190,18 +174,18 @@ export default function WelcomePage() {
             <Wordmark size="xl" tone="light" />
           </h2>
           <p className="mt-6 text-chalk/85 md:text-lg">
-            Whichever door you walk through, you&rsquo;ll find your
+            Whichever door you walk through, you’ll find your
             neighbours already inside.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="/im-a-leader" className="btn-lime">
-              I&rsquo;m a leader
+              I’m a leader
             </Link>
             <Link href="/im-a-teen" className="btn-ghost border-white/30 bg-white/10 text-chalk hover:bg-white/20">
-              I&rsquo;m a teen
+              I’m a teen
             </Link>
             <Link href="/im-volunteering" className="btn-ghost border-white/30 bg-white/10 text-chalk hover:bg-white/20">
-              I&rsquo;m volunteering
+              I’m volunteering
             </Link>
             <Link href="/our-organisation" className="btn-ghost border-white/30 bg-white/10 text-chalk hover:bg-white/20">
               Our organisation

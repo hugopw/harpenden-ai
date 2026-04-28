@@ -37,7 +37,7 @@ export default function Home() {
             Harpenden is unusually well placed to find out. A town full of
             London knowledge workers, ambitious families, grounded
             independents, and a council that listens. We think we can make
-            it the UK&rsquo;s first truly AI-fluent town — together, and
+            it the UK’s first truly AI-fluent town - together, and
             in one summer.
           </p>
 
@@ -58,7 +58,7 @@ export default function Home() {
             />
             <StatTile
               value="~49%"
-              label="Of residents in professional and managerial occupations — 4th highest in England"
+              label="Of residents in professional and managerial occupations - 4th highest in England"
               source="ONS Census 2021 · SADC"
             />
             <StatTile
@@ -68,7 +68,7 @@ export default function Home() {
             />
             <StatTile
               value="2.6M"
-              label="Journeys a year through Harpenden station — Thameslink to St Pancras in 26 minutes"
+              label="Journeys a year through Harpenden station - Thameslink to St Pancras in 26 minutes"
               source="ORR 2023/24"
             />
           </div>
@@ -82,26 +82,26 @@ export default function Home() {
             <Eyebrow tone="ink">The honest bit</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
               The displacement risk in Harpenden is higher than average.
-              Pretending otherwise isn&rsquo;t a kindness.
+              Pretending otherwise isn’t a kindness.
             </h2>
             <div className="prose-body mt-6 space-y-5">
               <p>
                 Harpenden sits on the Thameslink, and an unusually large
                 share of its working-age residents commute into London for
-                senior knowledge-economy roles — consulting, finance,
+                senior knowledge-economy roles - consulting, finance,
                 technology, legal, marketing. These are the exact roles
                 every large corporate is now quietly modelling for AI-driven
                 headcount reduction.
               </p>
               <p>
                 The same households have also invested heavily in their
-                children&rsquo;s education on the assumption that
-                university leads to a career like the parents&rsquo;. That
+                children’s education on the assumption that
+                university leads to a career like the parents’. That
                 assumption deserves honest re-examination.
               </p>
               <p>
-                We don&rsquo;t think the answer is fear. We think the
-                answer is fluency — enough AI literacy to keep residents
+                We don’t think the answer is fear. We think the
+                answer is fluency - enough AI literacy to keep residents
                 valuable, their children equipped, their businesses
                 thriving, and their council ahead of the curve.
               </p>
@@ -123,7 +123,7 @@ export default function Home() {
               tag={videoByTheme("displacement").tag}
             />
             <p className="text-sm text-ink/60">
-              From AI Optimist — Hugo&rsquo;s weekly note on how to
+              From AI Optimist - Hugo’s weekly note on how to
               respond to AI rather than react to it.
             </p>
           </div>
@@ -133,7 +133,7 @@ export default function Home() {
       {/* BIG QUESTIONS */}
       <Section tone="chalk">
         <div className="container-page">
-          <Eyebrow>Two questions we&rsquo;d like to answer in public</Eyebrow>
+          <Eyebrow>Two questions we’d like to answer in public</Eyebrow>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <div className="card-dark">
               <p className="eyebrow text-sun">Question one</p>
@@ -141,7 +141,7 @@ export default function Home() {
                 What happens when everyone in your community is fluent in AI?
               </p>
               <p className="mt-5 text-chalk/80">
-                Not a few early adopters. Everyone — the retiree at the
+                Not a few early adopters. Everyone - the retiree at the
                 Leisure Centre, the teenager at Roundwood, the marketing
                 director on the 07:42, the butcher on the High Street,
                 the clerk at the Town Hall.
@@ -154,8 +154,8 @@ export default function Home() {
                 own problems using the easy magic of AI?
               </p>
               <p className="mt-5 text-chalk/80">
-                When the town&rsquo;s own people build the tools the town
-                needs — the traffic model, the venue directory, the
+                When the town’s own people build the tools the town
+                needs - the traffic model, the venue directory, the
                 council-paper translator, the pothole tracker, the warm
                 loneliness concierge.
               </p>
@@ -171,7 +171,7 @@ export default function Home() {
             <Eyebrow>Five Harpendens, not one</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
               Every town has five groups. A plan that only serves the first
-              isn&rsquo;t a plan for the town — it&rsquo;s a plan for a club.
+              isn’t a plan for the town - it’s a plan for a club.
             </h2>
             <p className="prose-body mt-5">
               Harpenden.AI is designed to pull all five groups forward at
@@ -190,22 +190,22 @@ export default function Home() {
             />
             <SegmentCard
               number="2"
-              title="Started — now overwhelmed"
-              blurb="Can see the potential. Have tried half a dozen tools. Feel the ground shifting and don&rsquo;t know what to double down on."
+              title="Started - now overwhelmed"
+              blurb="Can see the potential. Have tried half a dozen tools. Feel the ground shifting and don’t know what to double down on."
               need="Coaching, a simple personal AI stack, and a peer group."
               tone="sky"
             />
             <SegmentCard
               number="3"
               title="Know they should"
-              blurb="Say they&rsquo;re doing it. Privately, not really. Confidence low, appetite real. Will move given the right first step."
+              blurb="Say they’re doing it. Privately, not really. Confidence low, appetite real. Will move given the right first step."
               need="A friendly first class, a low-stakes win, a mentor."
               tone="meadow"
             />
             <SegmentCard
               number="4"
               title="Reluctant"
-              blurb="Sceptical. Tired of hype. Not opposed — unconvinced. Will engage if the frame is local, practical, and on their terms."
+              blurb="Sceptical. Tired of hype. Not opposed - unconvinced. Will engage if the frame is local, practical, and on their terms."
               need="Local relevance, proof on their patch, no hype."
               tone="warm"
             />
@@ -218,8 +218,8 @@ export default function Home() {
             />
           </div>
           <p className="mt-8 text-sm text-ink/60">
-            The council&rsquo;s role is specifically to help us reach
-            groups 3, 4 and 5 — the ones our marketing can&rsquo;t.
+            The council’s role is specifically to help us reach
+            groups 3, 4 and 5 - the ones our marketing can’t.
           </p>
         </div>
       </Section>
@@ -229,14 +229,14 @@ export default function Home() {
         <div className="container-page">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div className="max-w-2xl">
-              <Eyebrow>Vision — the easy magic of AI, used together</Eyebrow>
+              <Eyebrow>Vision - the easy magic of AI, used together</Eyebrow>
               <h2 className="display-md mt-3 text-balance">
                 Pick the community problems we solve together first.
               </h2>
               <p className="prose-body mt-5">
                 These are Harpenden problems. Each can become a visible,
                 resident-led AI project inside a summer. Re-order the
-                list to show us how you&rsquo;d sequence them.
+                list to show us how you’d sequence them.
               </p>
             </div>
             <Link href="/challenges" className="btn-ghost">
@@ -256,12 +256,12 @@ export default function Home() {
             <div className="max-w-2xl">
               <Eyebrow tone="sun">Interventions directory</Eyebrow>
               <h2 className="display-md mt-3 text-balance">
-                A full shelf of ways to help — all ready to draw on.
+                A full shelf of ways to help - all ready to draw on.
               </h2>
               <p className="prose-body mt-5">
                 Every one of these is already live or ready to run in
-                Harpenden. The council doesn&rsquo;t have to build any of
-                it — just let residents know which door to open.
+                Harpenden. The council doesn’t have to build any of
+                it - just let residents know which door to open.
               </p>
             </div>
             <Link href="/interventions" className="btn-primary">
@@ -282,14 +282,14 @@ export default function Home() {
           <div>
             <Eyebrow tone="sun">The resident-only offer</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
-              Exclusive Harpenden pricing on AI Night School and Sherpas AI —
-              plus a local programme the rest of the country can&rsquo;t buy.
+              Exclusive Harpenden pricing on AI Night School and Sherpas AI -
+              plus a local programme the rest of the country can’t buy.
             </h2>
             <ul className="prose-body mt-6 space-y-3">
               <li className="flex gap-3">
                 <Check className="mt-1.5 h-5 w-5 flex-none text-meadow" />
                 <span>
-                  <strong>Harpenden-priced AI Night School cohorts</strong> —
+                  <strong>Harpenden-priced AI Night School cohorts</strong> -
                   with a physical kick-off night and a graduation evening
                   in town.
                 </span>
@@ -297,7 +297,7 @@ export default function Home() {
               <li className="flex gap-3">
                 <Check className="mt-1.5 h-5 w-5 flex-none text-meadow" />
                 <span>
-                  <strong>Sherpas AI — Harpenden edition</strong> — teen
+                  <strong>Sherpas AI - Harpenden edition</strong> - teen
                   cohorts working on Harpenden businesses, with local
                   community groups that meet in person.
                 </span>
@@ -305,16 +305,16 @@ export default function Home() {
               <li className="flex gap-3">
                 <Check className="mt-1.5 h-5 w-5 flex-none text-meadow" />
                 <span>
-                  <strong>Exclusive talks and workshops</strong> — Laura
+                  <strong>Exclusive talks and workshops</strong> - Laura
                   on AI for D2C. Chris on creating and protecting IP. A
-                  rolling roster of guest speakers from Hugo&rsquo;s network,
+                  rolling roster of guest speakers from Hugo’s network,
                   Harpenden only.
                 </span>
               </li>
               <li className="flex gap-3">
                 <Check className="mt-1.5 h-5 w-5 flex-none text-meadow" />
                 <span>
-                  <strong>The Free Dreamers</strong> — a small, deliberately
+                  <strong>The Free Dreamers</strong> - a small, deliberately
                   curated Harpenden community where we push the boundaries
                   of what AI can do for the town.
                 </span>
@@ -334,11 +334,11 @@ export default function Home() {
             <p className="mt-6 font-display text-3xl leading-tight md:text-4xl">
               AI for teens. AI for the high street. AI for older residents.
               AI for <em>anyone</em> in Harpenden who wants to get involved in
-              their community&rsquo;s AI project.
+              their community’s AI project.
             </p>
             <p className="mt-6 text-chalk/80">
-              The resident offer is designed so that every door — teenager,
-              commuter, independent, retiree — leads back to the same
+              The resident offer is designed so that every door - teenager,
+              commuter, independent, retiree - leads back to the same
               community.
             </p>
           </div>
@@ -351,12 +351,12 @@ export default function Home() {
           <div className="max-w-2xl">
             <Eyebrow>Watch, then read</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
-              Hugo&rsquo;s weekly note. Fifteen minutes of context, in
+              Hugo’s weekly note. Fifteen minutes of context, in
               plain English.
             </h2>
             <p className="prose-body mt-5">
               These AI Optimist videos make the case better than any page
-              ever will. Start anywhere — they&rsquo;re short by design.
+              ever will. Start anywhere - they’re short by design.
             </p>
           </div>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
@@ -394,8 +394,8 @@ export default function Home() {
               A full partnership. North star: awareness.
             </h2>
             <p className="mt-6 text-chalk/80">
-              We&rsquo;re not asking the council for permission. We&rsquo;re
-              asking the council to be a full partner — bringing every
+              We’re not asking the council for permission. We’re
+              asking the council to be a full partner - bringing every
               asset it already has (socials, email lists, direct mail,
               noticeboards, civic events, community relationships) into
               a coordinated push to make sure every Harpenden resident
@@ -420,11 +420,11 @@ export default function Home() {
               },
               {
                 title: "Direct mail &amp; letterbox drops",
-                body: "Reach residents that no digital channel touches — the awareness multiplier nothing else replaces.",
+                body: "Reach residents that no digital channel touches - the awareness multiplier nothing else replaces.",
               },
               {
                 title: "Council noticeboards &amp; civic spaces",
-                body: "Town Hall, Public Halls, library boards, civic centres — places residents already trust for what&rsquo;s on.",
+                body: "Town Hall, Public Halls, library boards, civic centres - places residents already trust for what’s on.",
               },
               {
                 title: "Community relationships",
@@ -432,7 +432,7 @@ export default function Home() {
               },
               {
                 title: "Press &amp; civic events",
-                body: "The Herts Ad, Harpenden Life, BBC Three Counties — and a regular Harpenden.AI moment in civic life.",
+                body: "The Herts Ad, Harpenden Life, BBC Three Counties - and a regular Harpenden.AI moment in civic life.",
               },
             ].map((a) => (
               <li key={a.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -455,12 +455,12 @@ export default function Home() {
         <div className="container-narrow text-center">
           <Eyebrow tone="ink">The ask</Eyebrow>
           <h2 className="display-lg mt-3 text-balance">
-            Read this site. Then let&rsquo;s meet this week and plan the summer.
+            Read this site. Then let’s meet this week and plan the summer.
           </h2>
           <p className="prose-body mx-auto mt-6 max-w-2xl">
             This is a vision document. Nothing on this site needs the
             council to build anything. It needs the council to decide
-            that Harpenden is worth being first — and to help us reach
+            that Harpenden is worth being first - and to help us reach
             the residents who would otherwise never hear.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">

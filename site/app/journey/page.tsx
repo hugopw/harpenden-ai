@@ -6,7 +6,7 @@ import { Eyebrow } from "@/components/Eyebrow";
 export const metadata: Metadata = {
   title: "The journey",
   description:
-    "The phased plan — from this council meeting to a Harpenden AI summer and beyond.",
+    "The phased plan - from this council meeting to a Harpenden AI summer and beyond.",
 };
 
 const phases = [
@@ -15,7 +15,7 @@ const phases = [
     title: "The website + the meeting",
     when: "This week",
     blurb:
-      "You&rsquo;re on it. The council walks through this site and decides whether to help us move to Phase 1.",
+      "You’re on it. The council walks through this site and decides whether to help us move to Phase 1.",
     deliverables: [
       "Council endorsement or steer",
       "A named council point of contact",
@@ -29,8 +29,8 @@ const phases = [
     blurb:
       "AI Night School and Sherpas AI both begin advertising Harpenden-resident pricing and local physical events. Flyers go through the council letterbox drops.",
     deliverables: [
-      "AI Night School — Harpenden cohort opens for enrolment",
-      "Sherpas AI — summer teen cohort opens",
+      "AI Night School - Harpenden cohort opens for enrolment",
+      "Sherpas AI - summer teen cohort opens",
       "Two small-business AI diagnostics run with the first independents",
     ],
   },
@@ -48,10 +48,10 @@ const phases = [
   },
   {
     n: "03",
-    title: "Become an AI Coach — train-the-trainer",
+    title: "Become an AI Coach - train-the-trainer",
     when: "July 2026",
     blurb:
-      "Early-adopter residents (Segment 1) are trained as AI Coaches for their own networks — so the programme scales beyond what Hugo or any one person can deliver.",
+      "Early-adopter residents (Segment 1) are trained as AI Coaches for their own networks - so the programme scales beyond what Hugo or any one person can deliver.",
     deliverables: [
       "10 trained Harpenden AI Coaches",
       "Weekly in-person clinics at the Leisure Centre and Library",
@@ -60,16 +60,16 @@ const phases = [
   },
   {
     n: "04",
-    title: "Harpenden AI Summer — the festival",
+    title: "Harpenden AI Summer - the festival",
     when: "August 2026",
     blurb:
-      "A visible, town-wide festival that closes the summer. Talks, workshops, showcases, graduations, and celebrations. Delivered by community members — not Hugo alone.",
+      "A visible, town-wide festival that closes the summer. Talks, workshops, showcases, graduations, and celebrations. Delivered by community members - not Hugo alone.",
     deliverables: [
       "Laura on AI for D2C businesses",
       "Chris on creating and protecting IP in the AI age",
       "Sherpas AI showcase of teen-built tools",
       "AI Night School graduation evening",
-      "Family clinics and older-residents&rsquo; drop-ins",
+      "Family clinics and older-residents’ drop-ins",
     ],
   },
   {
@@ -89,7 +89,7 @@ const phases = [
     title: "Port to other towns",
     when: "2027",
     blurb:
-      "With Harpenden proving the model, we open the pattern to two or three other carefully chosen towns — and Harpenden becomes the reference case.",
+      "With Harpenden proving the model, we open the pattern to two or three other carefully chosen towns - and Harpenden becomes the reference case.",
     deliverables: [
       "A playbook, co-authored with the council",
       "Case studies on displacement, high-street revival and civic engagement",
@@ -108,12 +108,12 @@ export default function JourneyPage() {
             From this meeting to an AI-fluent town, in one summer.
           </h1>
           <p className="prose-body mt-6">
-            This is the honest version. The summer timing is deliberate —
+            This is the honest version. The summer timing is deliberate -
             it creates visible progress before most residents drift off
             on holiday, and a festival finish is something the whole town
             can rally around. We accept that August absences mean the
             festival has to run through community members, not Hugo
-            alone. That&rsquo;s a feature, not a bug.
+            alone. That’s a feature, not a bug.
           </p>
         </div>
       </Section>
@@ -160,7 +160,7 @@ export default function JourneyPage() {
             Summer is the right frame even if delivery slips.
           </h2>
           <p className="mt-6 text-ink/90">
-            If we fall behind, we still ship a smaller summer — and we use
+            If we fall behind, we still ship a smaller summer - and we use
             the autumn to consolidate. The festival concept is the
             forcing function. The fluency is the prize.
           </p>

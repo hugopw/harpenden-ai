@@ -64,8 +64,8 @@ export function SignupForm({
   defaultTags = [],
   fields = [],
   cta = "Sign me up",
-  successHeadline = "You&rsquo;re on the list.",
-  successBody = "We&rsquo;ll be in touch with the next step shortly.",
+  successHeadline = "You’re on the list.",
+  successBody = "We’ll be in touch with the next step shortly.",
 }: SignupFormProps) {
   const t = toneClasses[tone];
   const [submitted, setSubmitted] = useState<Signup | null>(null);
@@ -112,7 +112,7 @@ export function SignupForm({
       setSubmitted(result);
       form.reset();
     } catch (err) {
-      setError("Sorry — something went wrong. Try again, or email Hugo.");
+      setError("Sorry - something went wrong. Try again, or email Hugo.");
     } finally {
       setBusy(false);
     }
@@ -142,7 +142,7 @@ export function SignupForm({
           Reference:&nbsp;<code>{submitted.id}</code>
         </p>
         <p className="mt-2 text-xs opacity-60">
-          (This is the demo build — your record lives in this browser.
+          (This is the demo build - your record lives in this browser.
           A shared database will replace this when we move out of
           demo.)
         </p>
@@ -221,7 +221,7 @@ export function SignupForm({
           </Checkbox>
           <Checkbox tone={tone} name="consent_partner" defaultChecked>
             OK to share my details with AI Night School and Sherpas AI so
-            I&rsquo;m matched to the right programme.
+            I’m matched to the right programme.
           </Checkbox>
         </fieldset>
 

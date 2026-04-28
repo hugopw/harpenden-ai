@@ -1,4 +1,4 @@
-// Submission types — shared between client (form) and store. The
+// Submission types - shared between client (form) and store. The
 // shape is designed so downstream automations can route on `persona`
 // + `tags` into AI Night School / Sherpas AI / volunteer flows.
 

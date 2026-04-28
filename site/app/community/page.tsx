@@ -22,9 +22,9 @@ export default function CommunityPage() {
           </h1>
           <p className="prose-body mt-6">
             This is a vision document, so every figure on this page comes
-            from publicly available sources — primarily ONS Census 2021 and
+            from publicly available sources - primarily ONS Census 2021 and
             open district-level data. When the council shares its own
-            insight we&rsquo;ll refine these numbers. Until then, the
+            insight we’ll refine these numbers. Until then, the
             directional picture is enough to make the case.
           </p>
         </div>
@@ -40,22 +40,22 @@ export default function CommunityPage() {
             />
             <StatTile
               value="55.1%"
-              label="Working-age (18–64) — the core of the London commute"
+              label="Working-age (18–64) - the core of the London commute"
               source="ONS mid-2024 estimate"
             />
             <StatTile
               value="26.9%"
-              label="Under 18 — Harpenden skews young and family-heavy"
+              label="Under 18 - Harpenden skews young and family-heavy"
               source="ONS mid-2024 estimate"
             />
             <StatTile
               value="18.0%"
-              label="Aged 65+ — a meaningful older-resident population"
+              label="Aged 65+ - a meaningful older-resident population"
               source="ONS mid-2024 estimate"
             />
             <StatTile
               value="~49%"
-              label="In professional / managerial occupations — vs 33% nationally"
+              label="In professional / managerial occupations - vs 33% nationally"
               source="ONS Census 2021, Harpenden North &amp; South wards"
             />
             <StatTile
@@ -70,7 +70,7 @@ export default function CommunityPage() {
             />
             <StatTile
               value="Top 1%"
-              label="Least-deprived areas in England — Harpenden North LSOA"
+              label="Least-deprived areas in England - Harpenden North LSOA"
               source="English Indices of Deprivation 2019"
             />
           </div>
@@ -90,11 +90,11 @@ export default function CommunityPage() {
           <div>
             <Eyebrow>The thesis</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
-              Why Harpenden specifically — and why now.
+              Why Harpenden specifically - and why now.
             </h2>
             <div className="prose-body mt-6 space-y-5">
               <p>
-                Harpenden&rsquo;s population skews heavily towards
+                Harpenden’s population skews heavily towards
                 professionals and managers (NS-SEC groups 1 and 2) in
                 finance, law, technology, consulting and other knowledge-
                 economy roles. A very large share commute into London.
@@ -106,7 +106,7 @@ export default function CommunityPage() {
                 The households that depend on those jobs have also
                 historically invested in private and grammar-track
                 schooling on the assumption of a graduate-career path.
-                That assumption needs honest re-examination — and the
+                That assumption needs honest re-examination - and the
                 town is unusually capable of doing that re-examination
                 well.
               </p>
@@ -122,43 +122,43 @@ export default function CommunityPage() {
             <p className="eyebrow text-sun">Local anchors</p>
             <ul className="mt-5 space-y-3 text-chalk/85">
               <li>
-                <strong>Rothamsted Research</strong> — world-class research
+                <strong>Rothamsted Research</strong> - world-class research
                 institution on our doorstep. A natural partner for the
                 ambition of an AI-fluent town.
               </li>
               <li>
-                <strong>Harpenden Leisure Centre</strong> — a natural home
+                <strong>Harpenden Leisure Centre</strong> - a natural home
                 for warm, in-person AI clinics for older residents and
                 parents.
               </li>
               <li>
-                <strong>The Common &amp; Rothamsted Park</strong> — our
+                <strong>The Common &amp; Rothamsted Park</strong> - our
                 civic front room, and the right place for a summer
                 festival.
               </li>
               <li>
-                <strong>St Nicholas &amp; Harpenden Methodist</strong> —
+                <strong>St Nicholas &amp; Harpenden Methodist</strong> -
                 halls and pastoral networks that reach residents digital
                 channels miss.
               </li>
               <li>
-                <strong>Harpenden Secondary Schools</strong> — a natural
+                <strong>Harpenden Secondary Schools</strong> - a natural
                 host for Sherpas AI teen cohorts and family-level
                 programmes.
               </li>
               <li>
-                <strong>Harpenden BID &amp; the High Street</strong> —
+                <strong>Harpenden BID &amp; the High Street</strong> -
                 the independents whose livelihoods can be protected
                 with an hour of AI coaching.
               </li>
               <li>
                 <strong>Harpenden Town Council &amp; the Town Hall</strong>
-                — the convening power that turns this from a nice idea
+                - the convening power that turns this from a nice idea
                 into a funded, visible, civic programme.
               </li>
               <li>
                 <strong>Harpenden Facebook groups &amp; The Herts Ad</strong>
-                — where residents actually find out what&rsquo;s going on.
+                - where residents actually find out what’s going on.
               </li>
             </ul>
           </div>
@@ -181,7 +181,7 @@ export default function CommunityPage() {
             />
             <SegmentCard
               number="2"
-              title="Started — overwhelmed"
+              title="Started - overwhelmed"
               blurb="Tried half a dozen tools. Can feel the shift. Needs focus."
               need="Coaching, a simple personal AI stack."
               tone="sky"
@@ -196,7 +196,7 @@ export default function CommunityPage() {
             <SegmentCard
               number="4"
               title="Reluctant"
-              blurb="Sceptical of hype. Not opposed — unconvinced."
+              blurb="Sceptical of hype. Not opposed - unconvinced."
               need="Local proof, practical wins, no hype."
               tone="warm"
             />
@@ -216,7 +216,7 @@ export default function CommunityPage() {
           <Eyebrow tone="sun">A multi-generational town</Eyebrow>
           <h2 className="display-md mt-3 text-balance">
             The offers are deliberately designed so a teenager, their parent,
-            and their grandparent can each find a door that&rsquo;s right
+            and their grandparent can each find a door that’s right
             for them.
           </h2>
           <p className="mt-6 text-chalk/80">

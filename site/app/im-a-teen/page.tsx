@@ -9,15 +9,15 @@ import { VideoCard } from "@/components/VideoCard";
 import { videoByTheme } from "@/lib/videos";
 
 export const metadata: Metadata = {
-  title: "I&rsquo;m 14–18",
+  title: "I’m 14–18",
   description:
-    "Sherpas AI — Harpenden edition. Build real AI tools for real Harpenden businesses. Get paid. Make stuff that matters.",
+    "Sherpas AI - Harpenden edition. Build real AI tools for real Harpenden businesses. Get paid. Make stuff that matters.",
 };
 
 export default function TeenPage() {
   return (
     <>
-      {/* HERO — Sherpas register */}
+      {/* HERO - Sherpas register */}
       <section className="relative overflow-hidden">
         <div className="bg-sherpas-gradient">
           <div className="container-page grid gap-10 pb-20 pt-16 md:grid-cols-[1.2fr_0.8fr] md:items-center md:pb-28 md:pt-24">
@@ -29,11 +29,11 @@ export default function TeenPage() {
                 Get paid to bring your ideas to life.
               </h1>
               <p className="mt-6 max-w-2xl text-lg text-white/90 md:text-xl">
-                Sherpas AI — Harpenden edition. You build real AI
+                Sherpas AI - Harpenden edition. You build real AI
                 tools for real Harpenden organisations. You get paid.
                 You meet other teens who are doing the same. And you
                 walk into any uni or job interview with a portfolio
-                most adults haven&rsquo;t got.
+                most adults haven’t got.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <Link href="#signup" className="btn-sherpas">
@@ -110,15 +110,15 @@ export default function TeenPage() {
               The world is changing fast. Your move.
             </h2>
             <p className="prose-body mt-5">
-              The way our parents got into careers — university, then
-              entry-level job, then climb the ladder — is shifting
-              hard under everyone&rsquo;s feet. The teenagers who
-              build now, who can show what they&rsquo;ve made, who
-              can talk to AI like it&rsquo;s a tool not a toy, are
-              the ones who&rsquo;ll have the most options.
+              The way our parents got into careers - university, then
+              entry-level job, then climb the ladder - is shifting
+              hard under everyone’s feet. The teenagers who
+              build now, who can show what they’ve made, who
+              can talk to AI like it’s a tool not a toy, are
+              the ones who’ll have the most options.
             </p>
             <p className="mt-4 text-base md:text-lg">
-              You don&rsquo;t need to be a coder. You don&rsquo;t need
+              You don’t need to be a coder. You don’t need
               to be top of the class. You need an idea, a tiny bit of
               grit, and somewhere safe to try.
             </p>
@@ -138,13 +138,13 @@ export default function TeenPage() {
           <div className="text-chalk">
             <span className="pill-lime">Sign up</span>
             <h2 className="display-md mt-3 text-balance">
-              Two minutes. Then we&rsquo;ll send you the next cohort
+              Two minutes. Then we’ll send you the next cohort
               date.
             </h2>
             <p className="mt-5 text-chalk/85">
-              If you&rsquo;re under 18 we&rsquo;ll also send a quick
+              If you’re under 18 we’ll also send a quick
               note to a parent or guardian, just so they know
-              you&rsquo;re joining. That&rsquo;s it.
+              you’re joining. That’s it.
             </p>
             <p className="mt-3 text-sm text-chalk/65">
               No spam. No sales calls. Just the things you actually
@@ -181,14 +181,14 @@ export default function TeenPage() {
               },
               {
                 name: "parentEmail",
-                label: "Parent / guardian email (if you&rsquo;re under 18)",
+                label: "Parent / guardian email (if you’re under 18)",
                 type: "email",
                 placeholder: "parent@example.com",
               },
             ]}
-            cta="I&rsquo;m in."
-            successHeadline="You&rsquo;re in. Welcome to Sherpas."
-            successBody="Look out for a note from the team with the next Harpenden cohort dates. If you gave us a parent email, they&rsquo;ll get a friendly heads-up too."
+            cta="I’m in."
+            successHeadline="You’re in. Welcome to Sherpas."
+            successBody="Look out for a note from the team with the next Harpenden cohort dates. If you gave us a parent email, they’ll get a friendly heads-up too."
           />
         </div>
       </section>

@@ -7,7 +7,7 @@ import { ProblemForm } from "@/components/ProblemForm";
 export const metadata: Metadata = {
   title: "Submit a problem",
   description:
-    "Tell us a real Harpenden problem your organisation faces. We&rsquo;ll match it to a working group and let other residents join in solving it.",
+    "Tell us a real Harpenden problem your organisation faces. We’ll match it to a working group and let other residents join in solving it.",
 };
 
 export default function SubmitProblemPage() {
@@ -21,18 +21,18 @@ export default function SubmitProblemPage() {
             project.
           </h1>
           <p className="prose-body mt-6">
-            This form is for any Harpenden organisation — charity,
+            This form is for any Harpenden organisation - charity,
             school, club, faith group, social enterprise, council
             committee. Once you submit, your problem appears on the{" "}
             <Link href="/community-projects" className="underline underline-offset-4">
               Community Projects page
             </Link>{" "}
-            so other residents can join the working group. We&rsquo;ll
+            so other residents can join the working group. We’ll
             come back to you within a week with next steps.
           </p>
           <p className="mt-4 text-sm text-midnight/55">
             Demo note: in this build, your submission saves locally in
-            your browser. We&rsquo;ll move to a shared database before
+            your browser. We’ll move to a shared database before
             launch.
           </p>
         </div>

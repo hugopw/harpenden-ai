@@ -9,7 +9,7 @@ import { VideoCard } from "@/components/VideoCard";
 import { videoByTheme } from "@/lib/videos";
 
 export const metadata: Metadata = {
-  title: "I&rsquo;m a leader",
+  title: "I’m a leader",
   description:
     "Get fluent in AI before your role does. Harpenden-priced AI Night School cohorts, a residents-only speaker series, and a community of senior peers in town.",
 };
@@ -28,16 +28,16 @@ export default function LeaderPage() {
               <span className="text-lime">Get fluent before it changes without you.</span>
             </h1>
             <p className="prose-body mt-6 max-w-2xl text-chalk/85">
-              You&rsquo;re a senior knowledge worker on the
+              You’re a senior knowledge worker on the
               Harpenden–London line, in a role every major employer is
               quietly modelling for AI productivity. The honest answer
-              isn&rsquo;t fear. It&rsquo;s fluency — fast.
+              isn’t fear. It’s fluency - fast.
             </p>
             <ul className="mt-6 space-y-2 text-base text-chalk/85">
-              <li>— A six-week AI Night School cohort, Harpenden-priced.</li>
-              <li>— Physical kick-off and graduation in town.</li>
-              <li>— Residents-only speaker series (Laura, Chris, more).</li>
-              <li>— A community of senior peers building together.</li>
+              <li>- A six-week AI Night School cohort, Harpenden-priced.</li>
+              <li>- Physical kick-off and graduation in town.</li>
+              <li>- Residents-only speaker series (Laura, Chris, more).</li>
+              <li>- A community of senior peers building together.</li>
             </ul>
           </div>
           <div className="relative">
@@ -54,18 +54,18 @@ export default function LeaderPage() {
           <div>
             <Eyebrow>Why now</Eyebrow>
             <h2 className="display-md mt-3">
-              The displacement isn&rsquo;t coming. It&rsquo;s here.
+              The displacement isn’t coming. It’s here.
             </h2>
             <p className="prose-body mt-5">
               Across consulting, finance, marketing, law and tech, the
               business case for AI is being built around fewer, more
-              senior people. The people who get ahead aren&rsquo;t
-              the ones who fear that — they&rsquo;re the ones who
+              senior people. The people who get ahead aren’t
+              the ones who fear that - they’re the ones who
               learnt to deploy AI inside their own work first.
             </p>
             <p className="mt-4 text-base md:text-lg">
               Harpenden has more of you per square mile than almost
-              anywhere in the country. That&rsquo;s why this town is
+              anywhere in the country. That’s why this town is
               the right place to do this together.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -96,19 +96,19 @@ export default function LeaderPage() {
           <div>
             <Eyebrow tone="sun">Start here</Eyebrow>
             <h2 className="display-md mt-3 text-balance">
-              Two minutes to register. We&rsquo;ll match you to the
+              Two minutes to register. We’ll match you to the
               right cohort.
             </h2>
             <p className="mt-5 text-chalk/85">
-              You&rsquo;ll get a short call with the AI Night School
+              You’ll get a short call with the AI Night School
               team to confirm fit, plus the dates of the next
               Harpenden-only kick-off evening. The speaker-series
               invites follow automatically.
             </p>
             <ul className="mt-6 space-y-2 text-chalk/80">
-              <li>— You stay in control of your data.</li>
-              <li>— No newsletters you didn&rsquo;t ask for.</li>
-              <li>— You can unsubscribe in one click.</li>
+              <li>- You stay in control of your data.</li>
+              <li>- No newsletters you didn’t ask for.</li>
+              <li>- You can unsubscribe in one click.</li>
             </ul>
           </div>
           <SignupForm
@@ -134,14 +134,14 @@ export default function LeaderPage() {
                 required: true,
                 options: [
                   { value: "next", label: "The next AI Night School cohort" },
-                  { value: "later", label: "A later cohort — keep me posted" },
+                  { value: "later", label: "A later cohort - keep me posted" },
                   { value: "speaker-series", label: "The speaker series" },
                   { value: "free-dreamers", label: "The Free Dreamers" },
                 ],
               },
             ]}
             cta="Register my interest"
-            successHeadline="You&rsquo;re on the leader list."
+            successHeadline="You’re on the leader list."
             successBody="The AI Night School team will be in touch with the next Harpenden cohort dates and your speaker-series invites."
           />
         </div>

@@ -60,7 +60,7 @@ export function InterventionCard({
       <p className="text-sm text-ink/80">{what}</p>
       <div className="mt-2 space-y-2 text-sm">
         <p>
-          <span className="text-ink/60">Who it&rsquo;s for: </span>
+          <span className="text-ink/60">Who it’s for: </span>
           <span className="text-ink">{who}</span>
         </p>
         <p>

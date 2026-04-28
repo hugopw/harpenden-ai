@@ -1,10 +1,10 @@
-# Plan — Harpenden.AI vision website
+# Plan - Harpenden.AI vision website
 
 Proposal. Awaiting Hugo's confirmation before building. Nothing below has been implemented yet.
 
 ## 1. Site purpose (one line)
 
-Walk Harpenden Town Council through a fully-formed vision of Harpenden as the UK's most AI-fluent town, with the risk, the mechanics, the interventions, and a worked example already in place — so their meeting with Hugo is about *helping*, not *deciding*.
+Walk Harpenden Town Council through a fully-formed vision of Harpenden as the UK's most AI-fluent town, with the risk, the mechanics, the interventions, and a worked example already in place - so their meeting with Hugo is about *helping*, not *deciding*.
 
 ## 2. Proposed information architecture
 
@@ -25,7 +25,7 @@ One card per intervention with "what it is / who it's for / community example":
 - Sherpas AI
 - AI Optimist Strategy
 - AI Transformation Accelerator (standard)
-- AI Transformation Accelerator for Town Councils (new variant — see `/council`)
+- AI Transformation Accelerator for Town Councils (new variant - see `/council`)
 - Imaginarium
 - Problemarium
 - Chooser
@@ -50,13 +50,13 @@ Council-facing AI Transformation Accelerator:
 - Specific asks: letterbox drops, noticeboards, social channels, introductions to Rothamsted / Leisure Centre / Facebook groups, venue partnerships.
 
 ### Journey (`/journey`)
-The journey to get there — phased, specific, low-effort-for-council:
+The journey to get there - phased, specific, low-effort-for-council:
 - Phase 0: This website + council meeting.
 - Phase 1: Core offers (AI Night School, AI Optimist) advertised with Harpenden-resident pricing.
 - Phase 2: Community-group formation around local priorities, with training.
 - Phase 3: Train-the-trainer ("Become an AI Coach").
 - Phase 4: Physical spaces for supported AI work.
-- Phase 5: Harpenden AI festival (summer — caveat: holidays; needs community co-delivery, not Hugo-only).
+- Phase 5: Harpenden AI festival (summer - caveat: holidays; needs community co-delivery, not Hugo-only).
 - Phase 6: Expansion to other towns.
 
 ### About / Contact (`/about`)
@@ -66,8 +66,8 @@ Hugo's bio, AI Optimist brand, links to Sherpas AI and AI Night School, contact 
 
 - Draw from `www.startupsherpas.co.uk` (confident, mission-led) and `www.ainightschool.org` (approachable, people-first).
 - AI Optimist brand palette and typography.
-- Local Harpenden imagery: High Street, Rothamsted, the Common, St Nicholas, the station, the park, the Leisure Centre. Sourced legally — needs `design/imagery-sources.md`.
-- Footer: "Developed by Hugo Pickford-Wardle — AI Optimist".
+- Local Harpenden imagery: High Street, Rothamsted, the Common, St Nicholas, the station, the park, the Leisure Centre. Sourced legally - needs `design/imagery-sources.md`.
+- Footer: "Developed by Hugo Pickford-Wardle - AI Optimist".
 
 ## 4. Technical stack (proposed)
 
@@ -88,24 +88,24 @@ Hugo's bio, AI Optimist brand, links to Sherpas AI and AI Night School, contact 
 
 1. **Approve this plan** (Hugo).
 2. **Draft content** for Home, Community, Interventions, Council, Journey. (No code yet.)
-3. **Design system pass** — palette, type, components, imagery shortlist.
+3. **Design system pass** - palette, type, components, imagery shortlist.
 4. **Scaffold Next.js site** in `site/`.
 5. **Build pages** in IA order, content-first.
-6. **`/harpenden-traffic` prototype** — separate effort; needs its own mini-brief.
+6. **`/harpenden-traffic` prototype** - separate effort; needs its own mini-brief.
 7. **Polish, deploy, share staging link with Hugo** before council meeting.
 
 ## 7. Open questions for Hugo
 
-1. **Resident-only offer** — what's the right special value? Discount on AI Night School, a free diagnostic, a Harpenden-only cohort, a sliding scale? Recommend we pick one primary offer, not a menu.
-2. **Festival timing** — summer despite holidays, or September "Back to AI" framing?
-3. **Demographics data** — do we have licensed data to cite, or should the site use directional ranges and invite the council to share their data?
-4. **Diagnostic names** — happy to workshop the five candidates above, or you want to name them yourself?
-5. **Harpenden-specific partners** — any names beyond Rothamsted / Leisure Centre / Facebook group / Harpenden Collective you want listed by name?
-6. **Tech stack** — Next.js + MDX as proposed, or do you want to use an existing AI Optimist / AI Night School template as a starting point?
-7. **Council meeting date** — what's the deadline we're building toward?
+1. **Resident-only offer** - what's the right special value? Discount on AI Night School, a free diagnostic, a Harpenden-only cohort, a sliding scale? Recommend we pick one primary offer, not a menu.
+2. **Festival timing** - summer despite holidays, or September "Back to AI" framing?
+3. **Demographics data** - do we have licensed data to cite, or should the site use directional ranges and invite the council to share their data?
+4. **Diagnostic names** - happy to workshop the five candidates above, or you want to name them yourself?
+5. **Harpenden-specific partners** - any names beyond Rothamsted / Leisure Centre / Facebook group / Harpenden Collective you want listed by name?
+6. **Tech stack** - Next.js + MDX as proposed, or do you want to use an existing AI Optimist / AI Night School template as a starting point?
+7. **Council meeting date** - what's the deadline we're building toward?
 
 ## 8. Not doing (yet)
 
-- No live directory of hirable rooms — the site *describes* it as a community challenge, it doesn't *solve* it. Same for loneliness, potholes. Those become real projects *after* the council engages.
+- No live directory of hirable rooms - the site *describes* it as a community challenge, it doesn't *solve* it. Same for loneliness, potholes. Those become real projects *after* the council engages.
 - No auth, no resident portal, no membership system in v1.
 - No marketing automation integration until the council is onboard.

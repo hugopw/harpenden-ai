@@ -1,4 +1,4 @@
-// Geometric flat llama illustration — Sherpas register, used on the
+// Geometric flat llama illustration - Sherpas register, used on the
 // teen path only. Styled inline so it ports cleanly without an asset
 // download. Tasteful nod to the Sherpas social mascot.
 export function Llama({
@@ -54,7 +54,7 @@ export function Llama({
       <circle cx="183" cy="54" r="2.5" fill="#191931" />
       {/* eye sparkle */}
       <circle cx="184" cy="53" r="0.9" fill="#fff" />
-      {/* scarf — Sherpas gradient nod */}
+      {/* scarf - Sherpas gradient nod */}
       <path
         d="M138,108 C148,104 168,104 178,108 L182,124 C172,120 148,120 136,124 Z"
         fill="url(#llamaScarf)"

@@ -7,21 +7,21 @@ import { MiniHugo } from "@/components/MiniHugo";
 export const metadata: Metadata = {
   title: "Our organisation",
   description:
-    "Tell us a real problem your charity, school, club or community group faces — we&rsquo;ll match it to a Harpenden working group and let other residents join in solving it.",
+    "Tell us a real problem your charity, school, club or community group faces - we’ll match it to a Harpenden working group and let other residents join in solving it.",
 };
 
 const examples = [
   {
     org: "Kings Pantry",
-    problem: "Match donated food to family need without anyone going hungry — and without waste.",
+    problem: "Match donated food to family need without anyone going hungry - and without waste.",
   },
   {
     org: "Harpenden Trust",
-    problem: "Help residents find the right grant or service quickly, even if they&rsquo;ve never heard of us.",
+    problem: "Help residents find the right grant or service quickly, even if they’ve never heard of us.",
   },
   {
     org: "Roundwood Park School",
-    problem: "Triage parent and pupil enquiries so the office isn&rsquo;t the bottleneck.",
+    problem: "Triage parent and pupil enquiries so the office isn’t the bottleneck.",
   },
   {
     org: "Sport for Confidence",
@@ -67,9 +67,9 @@ export default function OrganisationPage() {
               Tell us a real problem your organisation faces.
             </h1>
             <p className="prose-body mt-6 max-w-2xl">
-              Then we&rsquo;ll match it to a Harpenden working group
-              and let other residents — leaders, teens, volunteers —
-              join in solving it. This is what a town that&rsquo;s
+              Then we’ll match it to a Harpenden working group
+              and let other residents - leaders, teens, volunteers -
+              join in solving it. This is what a town that’s
               fluent in AI actually does for its own organisations.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -95,7 +95,7 @@ export default function OrganisationPage() {
             Specific. Felt by real people. Solvable inside a summer.
           </h2>
           <p className="prose-body mt-5 max-w-3xl">
-            You don&rsquo;t need to know what AI can do. You just need
+            You don’t need to know what AI can do. You just need
             to know what hurts. The good problems are the ones your
             volunteers and beneficiaries already know by heart.
           </p>
@@ -109,7 +109,7 @@ export default function OrganisationPage() {
                   {e.org}
                 </p>
                 <p className="mt-3 font-display text-xl leading-snug text-midnight">
-                  &ldquo;{e.problem}&rdquo;
+                  “{e.problem}”
                 </p>
               </article>
             ))}
@@ -144,7 +144,7 @@ export default function OrganisationPage() {
               Submit your problem
             </Link>
             <Link href="/community-projects" className="btn-ghost border-white/30 bg-white/10 text-chalk hover:bg-white/20">
-              Browse what&rsquo;s already in motion
+              Browse what’s already in motion
             </Link>
           </div>
         </div>
